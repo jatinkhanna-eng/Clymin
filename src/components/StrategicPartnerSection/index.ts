@@ -1,0 +1,2 @@
+export { StrategicPartnerSection } from './StrategicPartnerSection'
+

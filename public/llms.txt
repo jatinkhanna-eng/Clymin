@@ -1,0 +1,75 @@
+# Clymin - AI Structure File
+# This file provides AI systems with structured information about Clymin
+
+## Company Identity
+Name: Clymin
+Website: https://www.clymin.ai
+Description: AI-powered web scraping and data extraction company delivering real-time, actionable data to businesses.
+Founded: 2012
+Industry: Data Extraction, Web Scraping, AI Services
+
+## Core Services
+1. Web & App Scraping AI Services
+   - Automated data extraction from websites and applications
+   - AI-powered intelligent scraping agents
+   - Real-time data delivery
+
+2. Mobile App Scraping Services
+   - Mobile application data extraction
+   - Cross-platform scraping solutions
+
+3. Real-Time Crawling Services
+   - Continuous data monitoring
+   - Live data updates
+   - Automated crawling infrastructure
+
+4. API Solutions
+   - Custom API development
+   - Data integration services
+   - RESTful API endpoints
+
+5. Data Cleansing & Transformation
+   - Data cleaning and normalization
+   - Format conversion
+   - Quality assurance
+
+6. Automated Monitoring
+   - Continuous data tracking
+   - Alert systems
+   - Performance monitoring
+
+## Industries Served
+- E-commerce
+- Food Delivery
+- Travel
+- Finance
+- Real Estate
+- Healthcare
+- News & Media
+
+## Priority Pages
+1. Homepage: https://www.clymin.ai/
+2. Contact: https://www.clymin.ai/contact-us
+3. Web & App Scraping: https://www.clymin.ai/services/web-app-scraping-ai-services
+4. Mobile App Scraping: https://www.clymin.ai/services/mobile-app-scraping-services
+5. Real-Time Crawling: https://www.clymin.ai/services/real-time-crawling-services
+6. API Solutions: https://www.clymin.ai/services/api-solutions
+7. Data Cleansing: https://www.clymin.ai/services/data-cleansing-transformation
+8. Automated Monitoring: https://www.clymin.ai/services/automated-monitoring
+
+## Case Studies
+- Food Delivery: https://www.clymin.ai/food-delivery-with-clymins
+- E-commerce: https://www.clymin.ai/blogs/powerful-web-scraping-techniques-to-extract-data-like-a-pro-in-2024
+- Travel: https://www.clymin.ai/services/data-cleansing-transformation
+
+## Social Media & Profiles
+LinkedIn: https://www.linkedin.com/company/clymin
+Crunchbase: https://www.crunchbase.com/organization/clymin
+
+## Key Value Propositions
+- Real-time data extraction
+- AI-powered intelligent agents
+- Customizable data solutions
+- Actionable business insights
+- Scalable infrastructure
+

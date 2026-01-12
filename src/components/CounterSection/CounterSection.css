@@ -1,0 +1,182 @@
+/* Counter Section Styles */
+.counter-section {
+  color: #fff;
+  background-color: #0a2023;
+  padding-top: 0;
+  padding-bottom: 0;
+  display: block;
+}
+
+@media screen and (min-width: 1440px) {
+  .counter-section {
+    opacity: 1;
+    -webkit-text-fill-color: inherit;
+    background-clip: border-box;
+    padding-top: 0;
+  }
+}
+
+.main-box {
+  background-color: #0a2023;
+  border-top: 1px solid #f4f5f6;
+  padding: 60px 90px;
+}
+
+@media screen and (min-width: 1440px) {
+  .main-box {
+    border: 1px solid var(--light-green);
+    -webkit-text-stroke-color: var(--black);
+  }
+}
+
+.counter-wrapper {
+  text-align: center;
+}
+
+.number-wrap {
+  gap: 40px;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.number-content {
+  width: 195px;
+  flex-shrink: 0;
+}
+
+.heading-flex {
+  grid-column-gap: 2px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  padding-left: 5px;
+  display: flex;
+}
+
+.green-number {
+  color: #fbf9fc;
+  text-align: center;
+  margin-bottom: 8px;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 60px;
+}
+
+.green-number.clients {
+  margin-top: 20px;
+  margin-bottom: auto;
+  padding-bottom: 8px;
+}
+
+.green-number.experience {
+  text-transform: lowercase;
+}
+
+.green-number.partners {
+  text-transform: lowercase;
+  flex: 0 auto;
+}
+
+.large-numbers {
+  color: var(--orange);
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 60px;
+}
+
+.text {
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  display: flex;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 991px) {
+  .counter-section {
+    min-width: auto;
+    min-height: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .main-box {
+    padding: 60px 40px;
+  }
+
+  .number-wrap {
+    gap: 30px;
+  }
+
+  .number-content {
+    width: calc(50% - 15px);
+    min-width: 180px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .counter-section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .main-box {
+    padding: 40px 20px;
+  }
+
+  .number-wrap {
+    gap: 25px;
+  }
+
+  .number-content {
+    width: 100%;
+    max-width: 250px;
+    margin: 0 auto;
+  }
+
+  .green-number {
+    font-size: 48px;
+    line-height: 48px;
+  }
+
+  .large-numbers {
+    font-size: 48px;
+    line-height: 48px;
+  }
+
+  .text {
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .main-box {
+    padding: 30px 15px;
+  }
+
+  .number-wrap {
+    gap: 20px;
+  }
+
+  .green-number {
+    font-size: 40px;
+    line-height: 40px;
+  }
+
+  .large-numbers {
+    font-size: 40px;
+    line-height: 40px;
+  }
+
+  .text {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+

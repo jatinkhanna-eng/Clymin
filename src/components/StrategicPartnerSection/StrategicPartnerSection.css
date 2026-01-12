@@ -1,0 +1,335 @@
+/* Strategic Partner Section Styles */
+.about-one-manage-section {
+  background-color: #0a2023;
+  margin-top: 0;
+  padding: 117px 20px 0;
+}
+
+.about-container-section.about-one-manage-container {
+  grid-column-gap: 110px;
+  grid-row-gap: 110px;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  max-width: none;
+  margin-top: 0;
+  display: flex;
+}
+
+.about-one-manage-container-left {
+  order: -1;
+  padding-left: 40px;
+  display: block;
+}
+
+.home-one-hero-text-one.home-three-future-text-section-one.about-us-one-hero-one-text-section.about-one-manage-text-one-section {
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.home-one-hero-text-bold-two.home-three-future-text-one.about-one-hero-one-text.about-one-manage-text-one {
+  color: #fff;
+  margin-top: 40px;
+  margin-left: 0;
+}
+
+.about-one-manage-heading-text {
+  color: #fff;
+  max-width: 540px;
+  padding-bottom: 10px;
+  text-transform: capitalize;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: 'Be Vietnam Pro', sans-serif;
+  font-size: 2.625rem;
+  font-weight: 600;
+  line-height: 3.25rem;
+}
+
+.about-one-manage-paragraph {
+  color: #dadada;
+  max-width: 530px;
+  padding-bottom: 30px;
+  font-family: 'Be Vietnam Pro', sans-serif;
+  font-size: 1rem;
+  line-height: 1.75rem;
+  margin: 0;
+}
+
+.w-layout-grid {
+  grid-row-gap: 16px;
+  grid-column-gap: 16px;
+  grid-template-rows: auto auto;
+  grid-auto-columns: 1fr;
+  display: grid;
+}
+
+.grid-eight {
+  grid-column-gap: 17px;
+  grid-row-gap: 17px;
+  grid-template-columns: 1fr;
+}
+
+#w-node-_4e335109-8e32-0b74-cee1-a3f9199927c8-0969ff47,
+#w-node-_4e335109-8e32-0b74-cee1-a3f9199927ce-0969ff47,
+#w-node-_98754f41-1b95-2b50-002f-8c353d0481a0-0969ff47,
+#w-node-_98754f41-1b95-2b50-002f-8c353d0481a8-0969ff47,
+#w-node-b6969324-c8c3-cd3b-a725-692dc933bb71-0969ff47,
+#w-node-b6969324-c8c3-cd3b-a725-692dc933bb79-0969ff47,
+#w-node-b50f17da-f865-5a6b-fbea-15542d4ac78c-0969ff47,
+#w-node-b50f17da-f865-5a6b-fbea-15542d4ac793-0969ff47 {
+  grid-area: span 1 / span 1 / span 1 / span 1;
+}
+
+.about-one-manage-grid-inbox-two {
+  grid-column-gap: 19px;
+  grid-row-gap: 19px;
+  border-radius: 10px;
+  align-items: flex-start;
+  width: 564px;
+  padding: 28px 21px;
+  display: flex;
+  
+}
+
+.about-one-manage-grid-inbox-two.about-one-constant-background {
+  background-color: #fff;
+}
+
+.auto-fit {
+  object-fit: cover;
+}
+
+.auto-fit.about-one-manage-arrow {
+  width: 28px;
+  height: 28px;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+
+.about-one-grid-text-box {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  flex: 1;
+}
+
+.about-one-manage-grid-head-two {
+  color: #0f0f0f;
+  padding-bottom: 10px;
+  font-family: 'Be Vietnam Pro', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 2.125rem;
+}
+
+.about-one-manage-grid-head-two.about-one-manage-grid-text-two-color {
+  color: #fff;
+}
+
+.about-one-manage-grid-paragraph-two {
+  color: #606060;
+  max-width: 462px;
+  font-family: 'Be Vietnam Pro', sans-serif;
+  font-size: 1rem;
+  line-height: 1.75rem;
+  margin: 0;
+}
+
+.about-one-manage-grid-paragraph-two.about-one-grid-paragraph-two-color {
+  color: #dadada;
+}
+
+.about-one-manage-right-section {
+  width: 545px;
+  height: 544px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-11 {
+  padding-top: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 100%;
+  max-width: 899.5px;
+  height: auto;
+  object-fit: contain;
+}
+
+/* Responsive Styles */
+@media (max-width: 1100px) {
+  .about-one-manage-section {
+    padding: 60px 20px 0;
+  }
+
+  .about-container-section.about-one-manage-container {
+    flex-direction: column;
+    gap: 40px;
+    grid-column-gap: 0;
+    grid-row-gap: 40px;
+  }
+
+  .about-one-manage-container-left {
+    order: 0;
+    padding-left: 0;
+    width: 100%;
+  }
+
+  .about-one-manage-heading-text {
+    font-size: 2.25rem;
+    line-height: 2.75rem;
+    max-width: 100%;
+  }
+
+  .about-one-manage-paragraph {
+    max-width: 100%;
+  }
+
+  .about-one-manage-right-section {
+    width: 100%;
+    height: auto;
+    max-width: 545px;
+    margin: 0 auto;
+  }
+
+  .image-11 {
+    width: 100%;
+    max-width: 100%;
+    padding: 20px;
+  }
+
+  .about-one-manage-grid-inbox-two {
+    width: 100%;
+    max-width: 564px;
+  }
+}
+
+@media (max-width: 767px) {
+  .about-one-manage-section {
+    padding: 40px 15px 0;
+  }
+
+  .about-container-section.about-one-manage-container {
+    gap: 30px;
+    grid-row-gap: 30px;
+  }
+
+  .home-one-hero-text-bold-two.about-one-manage-text-one {
+    margin-top: 20px;
+  }
+
+  .about-one-manage-heading-text {
+    font-size: 1.75rem;
+    line-height: 2.25rem;
+    padding-bottom: 15px;
+  }
+
+  .about-one-manage-paragraph {
+    font-size: 0.9rem;
+    padding-bottom: 25px;
+  }
+
+  .about-one-manage-grid-inbox-two {
+    padding: 25px 20px;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .about-one-manage-grid-head-two {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
+  .about-one-manage-grid-paragraph-two {
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+    max-width: 100%;
+  }
+
+  .about-one-manage-right-section {
+    width: 100%;
+    height: auto;
+  }
+
+  .image-11 {
+    padding: 15px;
+  }
+}
+
+@media (max-width: 500px) {
+  .home-one-hero-text-bold-two.home-three-future-text-one.about-one-hero-one-text.about-one-manage-text-one {
+    margin-top: 60px;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-one-manage-section {
+    padding: 30px 10px 0;
+  }
+
+  .about-container-section.about-one-manage-container {
+    gap: 25px;
+    grid-row-gap: 25px;
+  }
+
+  .home-one-hero-text-bold-two.home-three-future-text-one.about-one-hero-one-text.about-one-manage-text-one {
+    margin-top: 60px;
+  }
+
+  .home-one-hero-text-bold-two.about-one-manage-text-one {
+    font-size: 0.9rem;
+  }
+
+  .about-one-manage-heading-text {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    padding-bottom: 10px;
+    margin-top: 15px;
+  }
+
+  .about-one-manage-paragraph {
+    font-size: 0.85rem;
+    line-height: 1.5rem;
+    padding-bottom: 20px;
+  }
+
+  .about-one-manage-grid-inbox-two {
+    padding: 20px 15px;
+    flex-direction: column;
+    width: 100%;
+    gap: 15px;
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+  }
+
+  .about-one-manage-grid-head-two {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    padding-bottom: 8px;
+  }
+
+  .about-one-manage-grid-paragraph-two {
+    font-size: 0.85rem;
+    line-height: 1.5rem;
+    max-width: 100%;
+  }
+
+  .auto-fit.about-one-manage-arrow {
+    width: 24px;
+    height: 24px;
+  }
+
+  .about-one-manage-right-section {
+    width: 100%;
+    height: auto;
+  }
+
+  .image-11 {
+    padding: 10px;
+    padding-top: 20px;
+  }
+}
+

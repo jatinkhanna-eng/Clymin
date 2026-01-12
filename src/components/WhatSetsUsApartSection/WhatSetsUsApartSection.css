@@ -1,0 +1,282 @@
+/* What Sets Us Apart Section Styles */
+.about-us-one-applycation-section {
+  padding: 126px 15px 175px;
+  background-color: #fff;
+}
+
+.about-us-one-applycation-section.pad-twenty {
+  margin-bottom: -113px;
+  padding-top: 20px;
+  padding-bottom: 0;
+  display: block;
+}
+
+.about-container-section {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about-container-section.about-one-applycation-container {
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+
+.home-one-hero-text-one {
+  grid-column-gap: 18px;
+  grid-row-gap: 18px;
+  flex-flow: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 0;
+  padding-left: 0;
+  display: flex;
+}
+
+.home-one-hero-text-one.home-three-future-text-section-one,
+.home-one-hero-text-one.home-three-future-text-section-one.about-us-one-hero-one-text-section {
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.home-one-hero-line {
+  background-color: #fff;
+  width: 31px;
+  height: 2px;
+}
+
+.home-one-hero-line.home-three-future-section-line {
+  background-color: #0f0f0f;
+}
+
+.home-one-hero-text-bold-two {
+  color: #fff;
+  text-transform: uppercase;
+  font-family: 'Be Vietnam Pro', sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.75rem;
+}
+
+.home-one-hero-text-bold-two.home-three-future-text-one {
+  color: #0f0f0f;
+}
+
+.home-one-hero-text-bold-two.home-three-future-text-one.about-one-hero-one-text {
+  color: #0f0f0f;
+}
+
+.about-one-applycation-head {
+  text-align: center;
+  max-width: 841px;
+  padding-top: 16px;
+  padding-bottom: 13px;
+  color: var(--black);
+  text-transform: capitalize;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: 'Be Vietnam Pro', sans-serif;
+  font-size: 2.625rem;
+  font-weight: 600;
+  line-height: 3.25rem;
+}
+
+.w-layout-grid {
+  grid-row-gap: 16px;
+  grid-column-gap: 16px;
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-columns: 1fr;
+  display: grid;
+}
+
+.about-one-grid {
+  grid-column-gap: 19px;
+  grid-row-gap: 19px;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: auto;
+  max-width: 1180px;
+  height: auto;
+  display: grid;
+}
+
+.about-one-manage-card-one {
+  background-color: #fff;
+  border: 1px solid #e6e6e6;
+  border-radius: 10px;
+  padding: 37px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.style-none {
+  text-decoration: none;
+}
+
+.about-one-manage-card-one.style-none {
+  width: auto;
+  height: auto;
+  min-height: 306.615px;
+}
+
+.about-one-card-inner-one {
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  align-items: center;
+  width: auto;
+  max-width: none;
+  height: auto;
+  max-height: none;
+  display: flex;
+}
+
+.auto-fit {
+  object-fit: cover;
+}
+
+.auto-fit.about-one-card-icon {
+  border: 1px solid #fff;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
+
+.about-one-manage-card-heading {
+  box-sizing: border-box;
+  color: var(--black);
+  text-align: left;
+  width: auto;
+  max-width: none;
+  height: auto;
+  max-height: none;
+  font-family: 'Be Vietnam Pro', sans-serif;
+  font-size: 1.1375rem;
+  font-weight: 600;
+  line-height: 2rem;
+}
+
+.about-one-card-one-paragraph {
+  cursor: auto;
+  max-width: 344px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  color: var(--dim-grey);
+  font-family: 'Be Vietnam Pro', sans-serif;
+  font-size: 1rem;
+  line-height: 1.75rem;
+  margin: 0;
+}
+
+/* Responsive Styles */
+@media (max-width: 1100px) {
+  .about-us-one-applycation-section {
+    padding: 60px 20px;
+  }
+
+  .about-us-one-applycation-section.pad-twenty {
+    padding: 60px 20px;
+    margin-bottom: -113px;
+  }
+
+  .w-layout-grid.about-one-grid {
+    grid-template-columns: 1fr !important;
+    gap: 25px;
+  }
+
+  .about-one-applycation-head {
+    font-size: 2.25rem;
+    line-height: 2.75rem;
+  }
+
+  .about-one-manage-card-one {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .about-one-manage-card-one.style-none {
+    min-height: auto;
+  }
+}
+
+@media (max-width: 767px) {
+  .about-us-one-applycation-section {
+    padding: 40px 15px;
+  }
+
+  .about-us-one-applycation-section.pad-twenty {
+    padding: 40px 15px;
+    margin-bottom: -113px;
+  }
+
+  .about-one-applycation-head {
+    font-size: 1.75rem;
+    line-height: 2.25rem;
+    margin-bottom: 30px;
+  }
+
+  .w-layout-grid.about-one-grid {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+
+  .about-one-manage-card-one {
+    padding: 25px 20px;
+    height: auto;
+  }
+
+  .about-one-manage-card-one.style-none {
+    display: block;
+    height: auto;
+  }
+
+  .about-one-manage-card-heading {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+  }
+
+  .about-one-card-one-paragraph {
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-us-one-applycation-section {
+    padding: 30px 10px;
+  }
+
+  .about-us-one-applycation-section.pad-twenty {
+    padding: 30px 10px;
+    margin-bottom: -113px;
+  }
+
+  .about-one-applycation-head {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-bottom: 25px;
+  }
+
+  .about-one-manage-card-one {
+    padding: 20px 15px;
+  }
+
+  .about-one-manage-card-heading {
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+  }
+
+  .about-one-card-one-paragraph {
+    font-size: 0.85rem;
+    line-height: 1.5rem;
+  }
+
+  .auto-fit.about-one-card-icon {
+    width: 70px;
+    height: auto;
+  }
+}
+

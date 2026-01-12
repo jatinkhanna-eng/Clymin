@@ -1,0 +1,2 @@
+export { IndustriesSection } from './IndustriesSection'
+
