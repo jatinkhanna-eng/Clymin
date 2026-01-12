@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import './ProjectSection.css'
 
 export const ProjectSection = () => {
@@ -8,9 +9,9 @@ export const ProjectSection = () => {
         <p className="home-project-paragraph text-center">
           Start your journey with Clymin today and harness the power of real-time data and AI-driven insights!
         </p>
-        <a href="/contact-us" className="button-font button-width w-button">
+        <Link to="/contact-us" className="button-font button-width w-button">
           Contact Us
-        </a>
+        </Link>
       </div>
       <div className="home-one-project-right-section">
         <img

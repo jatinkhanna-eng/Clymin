@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import { Link } from 'react-router-dom'
 import './Header.css'
 
 export interface HeaderProps {
@@ -170,13 +171,13 @@ export const Header = ({ onContactClick }: HeaderProps) => {
               </div>
 
               <div className="home-one-nav-button-box">
-                <a
-                  href="/contact-us"
+                <Link
+                  to="/contact-us"
                   onClick={onContactClick}
                   className="button-font responsive-display-none w-button"
                 >
                   Contact Us
-                </a>
+                </Link>
                 <button
                   className="header__menu-button menu-button w-nav-button"
                   onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
@@ -292,8 +293,8 @@ export const Header = ({ onContactClick }: HeaderProps) => {
                         </div>
                       )}
                     </div>
-                    <a
-                      href="/contact-us"
+                    <Link
+                      to="/contact-us"
                       className="mobile-menu-item mobile-menu-button"
                       onClick={() => {
                         setIsMobileMenuOpen(false)
@@ -301,7 +302,7 @@ export const Header = ({ onContactClick }: HeaderProps) => {
                       }}
                     >
                       Contact Us
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>

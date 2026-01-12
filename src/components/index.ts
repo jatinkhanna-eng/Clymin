@@ -43,3 +43,5 @@ export type { StepItemProps } from './StepItem'
 
 export { Footer } from './Footer'
 
+export { ContactUs } from './ContactUs'
+

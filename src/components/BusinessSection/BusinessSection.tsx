@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import './BusinessSection.css'
 
 export interface BusinessSectionProps {
@@ -27,9 +28,9 @@ export const BusinessSection = ({ onContactClick }: BusinessSectionProps) => {
         <p className="about-one-business-paragraph">
           Experience the power of our customized data solutions designed to drive your business forward. Schedule your free consultation now and see the difference!
         </p>
-        <a href="/contact-us" onClick={onContactClick} className="button-font w-button">
+        <Link to="/contact-us" onClick={onContactClick} className="button-font w-button">
           Contact Us
-        </a>
+        </Link>
         <img
           src="https://cdn.prod.website-files.com/665075d333d845b30969fece/665075d333d845b30969fff4_About%20one%20business%20Two.webp"
           alt=""

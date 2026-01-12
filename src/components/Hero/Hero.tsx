@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import './Hero.css'
 
 export interface HeroProps {
@@ -24,9 +25,9 @@ export const Hero = ({ onContactClick, onFeaturesClick }: HeroProps) => {
           Get actionable, real-time data customized to your business. Our intelligent AI agents extract, cleanse, and transform data, empowering you to make smarter decisions.
         </p>
         <div className="home-one-hero-button-section home-one-hero-button-padding">
-          <a href="/contact-us" className="button-font w-button" onClick={onContactClick}>
+          <Link to="/contact-us" className="button-font w-button" onClick={onContactClick}>
             Contact Us
-          </a>
+          </Link>
           <a
             href="/services/web-app-scraping-ai-services"
             className="home-one-all-button-two home-one-hero-second-button w-inline-block"

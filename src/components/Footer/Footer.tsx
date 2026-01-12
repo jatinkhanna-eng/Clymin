@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import './Footer.css'
 
 export const Footer = () => {
@@ -58,9 +59,9 @@ export const Footer = () => {
               >
                 Services
               </a>
-              <a href="/contact-us" className="home-one-footer-links-text">
+              <Link to="/contact-us" className="home-one-footer-links-text">
                 Contact Us
-              </a>
+              </Link>
             </div>
             <div className="home-one-footer-item-one">
               <div className="home-one-footer-headings">Quick Link</div>
