@@ -1,5 +1,5 @@
 import { useEffect } from 'react'
-import { getOrganizationSchema, getServiceSchema, getFAQSchema, type ServiceSchema, type FAQSchema } from '@/utils/schema'
+import { getOrganizationSchema, getServiceSchema, getFAQSchema } from '@/utils/schema'
 
 interface SchemaMarkupProps {
   organization?: boolean

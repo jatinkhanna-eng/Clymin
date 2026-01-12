@@ -8,7 +8,7 @@ export const CounterSection = () => {
           <div className="number-wrap">
             <div className="number-content">
               <div className="heading-flex">
-                <h2 duration="3000" {...{ 'counter-element': 'number' }} className="green-number clients">
+                <h2 data-duration="3000" {...{ 'counter-element': 'number' }} className="green-number clients">
                   200
                 </h2>
                 <h2 className="green-number">
@@ -19,7 +19,7 @@ export const CounterSection = () => {
             </div>
             <div className="number-content">
               <div className="heading-flex">
-                <h2 duration="5000" {...{ 'counter-element': 'number' }} className="green-number projects">
+                <h2 data-duration="5000" {...{ 'counter-element': 'number' }} className="green-number projects">
                   750
                 </h2>
                 <h2 className="green-number">
@@ -30,7 +30,7 @@ export const CounterSection = () => {
             </div>
             <div className="number-content">
               <div className="heading-flex">
-                <h2 duration="3000" {...{ 'counter-element': 'number' }} className="green-number experience">
+                <h2 data-duration="3000" {...{ 'counter-element': 'number' }} className="green-number experience">
                   12
                 </h2>
                 <h2 className="green-number experience">yrs</h2>
@@ -42,7 +42,7 @@ export const CounterSection = () => {
             </div>
             <div className="number-content">
               <div className="heading-flex">
-                <h2 duration="3000" {...{ 'counter-element': 'number' }} className="green-number partners">
+                <h2 data-duration="3000" {...{ 'counter-element': 'number' }} className="green-number partners">
                   100
                 </h2>
                 <h2 className="green-number partners">b</h2>
