@@ -821,12 +821,14 @@
   justify-content: center;
   align-items: center;
   padding-left: 35px;
+  padding-right: 35px;
 }
 
 @media screen and (min-width: 1440px) {
   .button-font.responsive-display-none {
     text-align: center;
     padding-left: 35px;
+    padding-right: 35px;
   }
 }
 
