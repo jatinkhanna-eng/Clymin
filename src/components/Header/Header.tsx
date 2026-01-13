@@ -37,14 +37,14 @@ export const Header = ({ onContactClick }: HeaderProps) => {
             className="navbar startech-about-us-navbar startech-about-one-nav-section navbar-background w-nav"
           >
             <div className="home-one-container startech-home-one-nav-container about-one-nav-container nevbar-second">
-              <a href="/" className="header__logo brand brand-two w-nav-brand" aria-label="home">
+              <Link to="/" className="header__logo brand brand-two w-nav-brand" aria-label="home">
                 <img
                   src="https://cdn.prod.website-files.com/665075d333d845b30969fece/667ac509eca2b49355e2b711_Clymin%20(3).png"
                   alt="Clymin logo"
                   height="32"
                   className="header__logo-img auto-fit startech-about-one-nav-logo"
                 />
-              </a>
+              </Link>
 
               <div className="nav-menu">
                 <div
@@ -94,73 +94,82 @@ export const Header = ({ onContactClick }: HeaderProps) => {
                               </div>
                             </div>
                             <div className="w-layout-cell cell-12">
-                              <a
-                                href="/services/web-app-scraping-ai-services"
+                              <Link
+                                to="/services/web-app-scraping-ai-services"
                                 className="dropdown-link-16 w-dropdown-link"
                                 tabIndex={0}
+                                onClick={() => setIsWhatWeDoOpen(false)}
                               >
                                 Web & App Scraping AI Services
-                              </a>
-                              <a
-                                href="/services/mobile-app-scraping-services"
+                              </Link>
+                              <Link
+                                to="/services/mobile-app-scraping-services"
                                 className="dropdown-link-16 w-dropdown-link"
                                 tabIndex={0}
+                                onClick={() => setIsWhatWeDoOpen(false)}
                               >
                                 Mobile App Scraping Services
-                              </a>
-                              <a
-                                href="/services/real-time-crawling-services"
+                              </Link>
+                              <Link
+                                to="/services/real-time-crawling-services"
                                 className="dropdown-link-16 w-dropdown-link"
                                 tabIndex={0}
+                                onClick={() => setIsWhatWeDoOpen(false)}
                               >
                                 Real-Time Crawling Services
                                 <br />
-                              </a>
-                              <a
-                                href="/services/api-solutions"
+                              </Link>
+                              <Link
+                                to="/services/api-solutions"
                                 className="dropdown-link-16 w-dropdown-link"
                                 tabIndex={0}
+                                onClick={() => setIsWhatWeDoOpen(false)}
                               >
                                 API solutions
                                 <br />
-                              </a>
-                              <a
-                                href="/services/data-cleansing-transformation"
+                              </Link>
+                              <Link
+                                to="/services/data-cleansing-transformation"
                                 className="dropdown-link-16 w-dropdown-link"
                                 tabIndex={0}
+                                onClick={() => setIsWhatWeDoOpen(false)}
                               >
                                 Data Cleansing & Transformation
-                              </a>
-                              <a
-                                href="/services/automated-monitoring"
+                              </Link>
+                              <Link
+                                to="/services/automated-monitoring"
                                 className="dropdown-link-16 w-dropdown-link"
                                 tabIndex={0}
+                                onClick={() => setIsWhatWeDoOpen(false)}
                               >
                                 Automated Monitoring
-                              </a>
+                              </Link>
                             </div>
                             <div className="w-layout-cell cell-11">
-                              <a
-                                href="/food-delivery-with-clymins"
+                              <Link
+                                to="/food-delivery-with-clymins"
                                 className="dropdown-link-16 w-dropdown-link"
                                 tabIndex={0}
+                                onClick={() => setIsWhatWeDoOpen(false)}
                               >
                                 Food delivery{' '}
-                              </a>
-                              <a
-                                href="/blogs/powerful-web-scraping-techniques-to-extract-data-like-a-pro-in-2024"
+                              </Link>
+                              <Link
+                                to="/blogs/powerful-web-scraping-techniques-to-extract-data-like-a-pro-in-2024"
                                 className="dropdown-link-16 w-dropdown-link"
                                 tabIndex={0}
+                                onClick={() => setIsWhatWeDoOpen(false)}
                               >
                                 E -commerce
-                              </a>
-                              <a
-                                href="/services/data-cleansing-transformation"
+                              </Link>
+                              <Link
+                                to="/services/data-cleansing-transformation"
                                 className="dropdown-link-16 w-dropdown-link"
                                 tabIndex={0}
+                                onClick={() => setIsWhatWeDoOpen(false)}
                               >
                                 Travel
-                              </a>
+                              </Link>
                             </div>
                           </div>
                         </div>
@@ -223,72 +232,72 @@ export const Header = ({ onContactClick }: HeaderProps) => {
                         <div className="mobile-menu-dropdown-content">
                           <div className="mobile-menu-section">
                             <strong className="mobile-menu-heading">Capabilities</strong>
-                            <a
-                              href="/services/web-app-scraping-ai-services"
+                            <Link
+                              to="/services/web-app-scraping-ai-services"
                               className="mobile-menu-link"
                               onClick={() => setIsMobileMenuOpen(false)}
                             >
                               Web & App Scraping AI Services
-                            </a>
-                            <a
-                              href="/services/mobile-app-scraping-services"
+                            </Link>
+                            <Link
+                              to="/services/mobile-app-scraping-services"
                               className="mobile-menu-link"
                               onClick={() => setIsMobileMenuOpen(false)}
                             >
                               Mobile App Scraping Services
-                            </a>
-                            <a
-                              href="/services/real-time-crawling-services"
+                            </Link>
+                            <Link
+                              to="/services/real-time-crawling-services"
                               className="mobile-menu-link"
                               onClick={() => setIsMobileMenuOpen(false)}
                             >
                               Real-Time Crawling Services
-                            </a>
-                            <a
-                              href="/services/api-solutions"
+                            </Link>
+                            <Link
+                              to="/services/api-solutions"
                               className="mobile-menu-link"
                               onClick={() => setIsMobileMenuOpen(false)}
                             >
                               API solutions
-                            </a>
-                            <a
-                              href="/services/data-cleansing-transformation"
+                            </Link>
+                            <Link
+                              to="/services/data-cleansing-transformation"
                               className="mobile-menu-link"
                               onClick={() => setIsMobileMenuOpen(false)}
                             >
                               Data Cleansing & Transformation
-                            </a>
-                            <a
-                              href="/services/automated-monitoring"
+                            </Link>
+                            <Link
+                              to="/services/automated-monitoring"
                               className="mobile-menu-link"
                               onClick={() => setIsMobileMenuOpen(false)}
                             >
                               Automated Monitoring
-                            </a>
+                            </Link>
                           </div>
                           <div className="mobile-menu-section">
                             <strong className="mobile-menu-heading">Case studies</strong>
-                            <a
-                              href="/food-delivery-with-clymins"
+                            <Link
+                              to="/food-delivery-with-clymins"
                               className="mobile-menu-link"
                               onClick={() => setIsMobileMenuOpen(false)}
                             >
                               Food delivery
-                            </a>
-                            <a
-                              href="/blogs/powerful-web-scraping-techniques-to-extract-data-like-a-pro-in-2024"
+                            </Link>
+                            <Link
+                              to="/blogs/powerful-web-scraping-techniques-to-extract-data-like-a-pro-in-2024"
                               className="mobile-menu-link"
                               onClick={() => setIsMobileMenuOpen(false)}
                             >
                               E-commerce
-                            </a>
-                            <a
-                              href="/services/data-cleansing-transformation"
+                            </Link>
+                            <Link
+                              to="/services/data-cleansing-transformation"
                               className="mobile-menu-link"
                               onClick={() => setIsMobileMenuOpen(false)}
                             >
                               Travel
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       )}

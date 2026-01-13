@@ -9,56 +9,56 @@ export const Footer = () => {
           <div className="home-one-footer-first-item">
             <div className="home-one-footer-item-one">
               <div className="home-one-footer-headings">Company</div>
-              <a href="/terms-service" className="home-one-footer-links-text">
+              <Link to="/terms-service" className="home-one-footer-links-text">
                 Terms Of Service
-              </a>
-              <a href="/privacy-policy" className="home-one-footer-links-text">
+              </Link>
+              <Link to="/privacy-policy" className="home-one-footer-links-text">
                 Privacy Policy
-              </a>
+              </Link>
             </div>
             <div className="home-one-footer-item-one">
               <div className="home-one-footer-headings">Services</div>
-              <a
-                href="/services/web-app-scraping-ai-services"
+              <Link
+                to="/services/web-app-scraping-ai-services"
                 className="home-one-footer-links-text"
               >
                 Web & App Scraping AI Services
-              </a>
-              <a
-                href="/services/real-time-crawling-services"
+              </Link>
+              <Link
+                to="/services/real-time-crawling-services"
                 className="home-one-footer-links-text"
               >
                 Real-Time Crawling Services
-              </a>
-              <a href="/services/api-solutions" className="home-one-footer-links-text">
+              </Link>
+              <Link to="/services/api-solutions" className="home-one-footer-links-text">
                 API Solutions
-              </a>
-              <a
-                href="/services/data-cleansing-transformation"
+              </Link>
+              <Link
+                to="/services/data-cleansing-transformation"
                 className="home-one-footer-links-text"
               >
                 Data Cleansing & Transformation
-              </a>
-              <a
-                href="/services/automated-monitoring"
+              </Link>
+              <Link
+                to="/services/automated-monitoring"
                 className="home-one-footer-links-text"
               >
                 Automated Monitoring
-              </a>
+              </Link>
             </div>
           </div>
           <div className="home-one-footer-first-item">
             <div className="home-one-footer-item-one">
               <div className="home-one-footer-headings">Support</div>
-              <a href="/blogs" className="home-one-footer-links-text">
+              <Link to="/blogs" className="home-one-footer-links-text">
                 Knowledge Base
-              </a>
-              <a
-                href="/services/web-app-scraping-ai-services"
+              </Link>
+              <Link
+                to="/services/web-app-scraping-ai-services"
                 className="home-one-footer-links-text"
               >
                 Services
-              </a>
+              </Link>
               <Link to="/contact-us" className="home-one-footer-links-text">
                 Contact Us
               </Link>
@@ -68,15 +68,15 @@ export const Footer = () => {
               <a href="#How-it-works" className="home-one-footer-links-text">
                 How It Works
               </a>
-              <a
-                href="/services/web-app-scraping-ai-services"
+              <Link
+                to="/services/web-app-scraping-ai-services"
                 className="home-one-footer-links-text"
               >
                 Features
-              </a>
-              <a href="/" aria-current="page" className="home-one-footer-links-text w--current">
+              </Link>
+              <Link to="/" className="home-one-footer-links-text">
                 Home
-              </a>
+              </Link>
             </div>
           </div>
         </div>
