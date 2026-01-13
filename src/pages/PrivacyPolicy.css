@@ -70,7 +70,9 @@ html.w-mod-touch * {
 
 /* Content Section */
 .changelog-section {
-  max-width: 940px;
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
   padding: 20px 60px 40px;
 }
 
