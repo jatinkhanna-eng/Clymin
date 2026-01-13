@@ -5,6 +5,7 @@ import { NotFound } from './pages/NotFound'
 import { ThankYou } from './pages/ThankYou'
 import { TermsOfService } from './pages/TermsOfService'
 import { PrivacyPolicy } from './pages/PrivacyPolicy'
+import { FoodDeliveryCaseStudy } from './pages/FoodDeliveryCaseStudy'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/thank-you" element={<ThankYou />} />
         <Route path="/terms-service" element={<TermsOfService />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+        <Route path="/food-delivery-with-clymins" element={<FoodDeliveryCaseStudy />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>

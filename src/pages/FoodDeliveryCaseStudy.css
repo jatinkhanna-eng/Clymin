@@ -1,0 +1,341 @@
+/* Food Delivery Case Study Page Styles */
+.blog-two-hero-section {
+  background-color: var(--blog-text);
+  padding-top: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.blog-container {
+  max-width: 1200px;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  display: block;
+}
+
+.blog-detail-time-section {
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  justify-content: space-between;
+  align-items: center;
+  max-width: none;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 5px 10px;
+  display: flex;
+}
+
+.blog-three-button-one {
+  background-color: #fdf0eb;
+  border-radius: 60px;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  max-width: none;
+  height: 34px;
+  margin-left: 4px;
+  padding-left: 0;
+  text-decoration: none;
+  display: flex;
+}
+
+.blog-three-button-text {
+  color: #ff6d2f;
+  font-family: Be Vietnam Pro, sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.75rem;
+}
+
+.blog-detail-date-section-text {
+  color: #606060;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0;
+  font-family: Be Vietnam Pro, sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.75rem;
+}
+
+.blog-detail-head {
+  color: var(--black);
+  text-transform: capitalize;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: 'Be Vietnam Pro', sans-serif;
+  font-size: 2.1875rem;
+  font-weight: 600;
+  line-height: 1.75rem;
+}
+
+.blog-detail-head.padding-buttom-twenty {
+  width: 700px;
+  max-width: 700px;
+  height: 100px;
+  max-height: 100px;
+  padding-bottom: 20px;
+  font-weight: 600;
+}
+
+.padding-buttom-twenty {
+  padding-bottom: 20px;
+}
+
+.blog-container img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin: 30px 0;
+  display: block;
+}
+
+.blog-container p {
+  color: var(--dim-grey);
+  font-family: 'Be Vietnam Pro', sans-serif;
+  font-size: 1rem;
+  line-height: 1.75rem;
+  margin-bottom: 20px;
+}
+
+.blog-detail-list-padding {
+  padding-left: 0;
+}
+
+.blog-container h3 {
+  color: var(--black);
+  font-family: 'Be Vietnam Pro', sans-serif;
+  font-size: 1.75rem;
+  font-weight: 600;
+  line-height: 2.25rem;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.blog-container h3 strong {
+  font-weight: 600;
+}
+
+.blog-container p strong {
+  color: var(--black);
+  font-weight: 600;
+}
+
+/* Recent Blogs Section */
+.blog-one-recent-blog-sec {
+  background-color: #f8f9fa;
+  padding: 80px 20px;
+  margin-top: 60px;
+}
+
+.blog-one-blog-head {
+  color: var(--black);
+  font-family: 'Be Vietnam Pro', sans-serif;
+  font-size: 2.625rem;
+  font-weight: 600;
+  line-height: 3.25rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.blog-one-blog-para {
+  color: var(--dim-grey);
+  font-family: 'Be Vietnam Pro', sans-serif;
+  font-size: 1rem;
+  line-height: 1.75rem;
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto 40px;
+}
+
+.w-dyn-list {
+  margin: 0;
+}
+
+.w-dyn-items {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+.w-dyn-item {
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.w-dyn-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+.w-dyn-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.blog-one-blog-grid-text {
+  padding: 20px;
+}
+
+.blog-one-blog-bold-text {
+  color: var(--black);
+  font-family: 'Be Vietnam Pro', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.75rem;
+}
+
+.blog-one-blog-text-one {
+  margin: 0;
+}
+
+.w-container {
+  max-width: 940px;
+}
+
+.w-layout-blockcontainer {
+  max-width: 940px;
+  display: block;
+}
+
+.w-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.w-col {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.w-col-6 {
+  width: 50%;
+  flex: 0 0 50%;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 991px) {
+  .blog-two-hero-section {
+    padding: 80px 20px 30px;
+  }
+
+  .blog-detail-head {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+
+  .blog-container h3 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .w-dyn-items {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .w-col-6 {
+    width: 100%;
+    flex: 0 0 100%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .blog-two-hero-section {
+    padding: 60px 15px 20px;
+  }
+
+  .blog-detail-time-section {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+  }
+
+  .blog-detail-head {
+    font-size: 1.75rem;
+    line-height: 2.25rem;
+    margin-bottom: 20px;
+  }
+
+  .blog-container img {
+    margin: 20px 0;
+  }
+
+  .blog-container p {
+    font-size: 0.95rem;
+    line-height: 1.625rem;
+    margin-bottom: 15px;
+  }
+
+  .blog-container h3 {
+    font-size: 1.375rem;
+    line-height: 1.875rem;
+    margin-top: 30px;
+    margin-bottom: 15px;
+  }
+
+  .blog-one-recent-blog-sec {
+    padding: 60px 15px;
+  }
+
+  .blog-one-blog-head {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+
+  .blog-one-blog-para {
+    font-size: 0.95rem;
+  }
+
+  .blog-one-blog-bold-text {
+    font-size: 1.125rem;
+    line-height: 1.625rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .blog-two-hero-section {
+    padding: 40px 10px 15px;
+  }
+
+  .blog-detail-head {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .blog-container p {
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+    margin-bottom: 12px;
+  }
+
+  .blog-container h3 {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    margin-top: 25px;
+    margin-bottom: 12px;
+  }
+
+  .blog-one-recent-blog-sec {
+    padding: 40px 10px;
+  }
+
+  .blog-one-blog-head {
+    font-size: 1.75rem;
+    line-height: 2.25rem;
+  }
+
+  .blog-one-blog-bold-text {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+}
+
