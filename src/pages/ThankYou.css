@@ -1,0 +1,137 @@
+/* Thank You Page Styles */
+html.w-mod-touch * {
+  background-attachment: scroll !important;
+}
+
+.changelog-hero-section {
+  background-color: var(--light-green);
+  padding: 140px 15px;
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (min-width: 1440px) {
+  .changelog-hero-section {
+    background-color: var(--light-green);
+  }
+}
+
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.w-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.w-container:before,
+.w-container:after {
+  content: ' ';
+  grid-area: 1 / 1 / 2 / 2;
+  display: table;
+}
+
+.w-container:after {
+  clear: both;
+}
+
+.no-margin-top {
+  margin-top: 0;
+}
+
+.text-align-center {
+  color: var(--white);
+  text-align: center;
+}
+
+.no-margin-top.text-align-center {
+  color: var(--white);
+  -webkit-text-stroke-color: var(--white);
+}
+
+@media screen and (min-width: 1440px) {
+  .no-margin-top.text-align-center {
+    color: var(--white);
+  }
+}
+
+.changelog-hero-section h1 {
+  font-family: 'Be Vietnam Pro', sans-serif;
+  font-size: 3.75rem;
+  font-weight: 600;
+  line-height: 4.375rem;
+  margin-bottom: 0;
+}
+
+.text-block-16 {
+  color: #fff;
+  text-align: center;
+  font-size: 2.5rem;
+  line-height: 25px;
+  margin-top: 30px;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 991px) {
+  .changelog-hero-section {
+    padding: 120px 20px;
+  }
+
+  .changelog-hero-section h1 {
+    font-size: 2.5rem;
+    line-height: 3rem;
+  }
+
+  .text-block-16 {
+    font-size: 1.25rem;
+    line-height: 2rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .changelog-hero-section {
+    padding: 100px 20px;
+    min-height: 100vh;
+  }
+
+  .changelog-hero-section h1 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+    margin-bottom: 0;
+  }
+
+  .text-block-16 {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .changelog-hero-section {
+    padding: 80px 15px;
+    min-height: 100vh;
+  }
+
+  .changelog-hero-section h1 {
+    font-size: 1.75rem;
+    line-height: 2.25rem;
+    margin-bottom: 0;
+  }
+
+  .text-block-16 {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-top: 15px;
+  }
+}
+

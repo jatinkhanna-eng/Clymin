@@ -1,10 +1,12 @@
 import { useState } from 'react'
+import { useNavigate } from 'react-router-dom'
 import emailjs from '@emailjs/browser'
 import './ContactUs.css'
 import { Header } from '@/components/Header'
 import { Footer } from '@/components/Footer'
 
 export const ContactUs = () => {
+  const navigate = useNavigate()
   const [isSubmitting, setIsSubmitting] = useState(false)
   const [submitStatus, setSubmitStatus] = useState<'success' | 'error' | null>(null)
 
@@ -45,9 +47,10 @@ export const ContactUs = () => {
         `Name: ${name}\nEmail: ${email}\nPhone: ${phone}\n\nMessage:\n${message}`
       )
       window.location.href = `mailto:jatin.khanna@gamyam.co?subject=${subject}&body=${body}`
-      setSubmitStatus('success')
-      form.reset()
-      setTimeout(() => setSubmitStatus(null), 5000)
+      // Redirect to thank you page after a short delay
+      setTimeout(() => {
+        navigate('/thank-you')
+      }, 500)
       setIsSubmitting(false)
       return
     }
@@ -56,13 +59,10 @@ export const ContactUs = () => {
       // Send email using EmailJS
       await emailjs.send(serviceId, templateId, templateParams, publicKey)
       
-      setSubmitStatus('success')
       form.reset()
       
-      // Hide success message after 5 seconds
-      setTimeout(() => {
-        setSubmitStatus(null)
-      }, 5000)
+      // Redirect to thank you page on success
+      navigate('/thank-you')
     } catch (error) {
       console.error('Email sending failed:', error)
       setSubmitStatus('error')
@@ -192,11 +192,6 @@ export const ContactUs = () => {
                   disabled={isSubmitting}
                 />
               </form>
-              {submitStatus === 'success' && (
-                <div className="w-form-done" tabIndex={-1} role="region" aria-label="Email Form success" style={{ display: 'block' }}>
-                  <div>Thank you! Your submission has been received!</div>
-                </div>
-              )}
               {submitStatus === 'error' && (
                 <div className="w-form-fail" tabIndex={-1} role="region" aria-label="Email Form failure" style={{ display: 'block' }}>
                   <div>Oops! Something went wrong while submitting the form. Please try again.</div>
