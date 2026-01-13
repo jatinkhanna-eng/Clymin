@@ -10,7 +10,7 @@ export const ThankYou = () => {
   return (
     <>
       <Header onContactClick={handleContactClick} />
-      <section className="changelog-hero-section">
+      <section className="changelog-hero-section take-max-height">
         <div className="container w-container">
           <div>
             <h1 className="no-margin-top text-align-center">Thank you!</h1>
