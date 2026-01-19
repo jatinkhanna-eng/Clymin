@@ -8,6 +8,7 @@ import { PrivacyPolicy } from './pages/PrivacyPolicy'
 import { FoodDeliveryCaseStudy } from './pages/FoodDeliveryCaseStudy'
 import { EcommerceBlog } from './pages/EcommerceBlog'
 import { DataCleansingTransformation } from './pages/DataCleansingTransformation'
+import { MobileAppScrapingServices } from './pages/MobileAppScrapingServices'
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/food-delivery-with-clymins" element={<FoodDeliveryCaseStudy />} />
         <Route path="/blogs/powerful-web-scraping-techniques-to-extract-data-like-a-pro-in-2024" element={<EcommerceBlog />} />
         <Route path="/services/data-cleansing-transformation" element={<DataCleansingTransformation />} />
+        <Route path="/services/mobile-app-scraping-services" element={<MobileAppScrapingServices />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>
