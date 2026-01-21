@@ -799,7 +799,7 @@ export const MobileAppScrapingServices = () => {
       </section>
 
       {/* Testimonials Section */}
-      <TestimonialsSection />
+      <TestimonialsSection label="Testimonials" heading="Trusted by Industry Leaders" />
 
       {/* FAQ Section */}
       <section className="faq-section-2">

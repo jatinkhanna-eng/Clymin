@@ -525,7 +525,7 @@ export const DataCleansingTransformation = () => {
         </div>
       </section>
 
-      <TestimonialsSection />
+      <TestimonialsSection label="Testimonials" heading="Trusted by Industry Leaders" />
 
       <BusinessSection onContactClick={handleContactClick} />
       <Footer />

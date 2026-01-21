@@ -742,7 +742,7 @@ export const AutomatedMonitoring = () => {
       </section>
 
       {/* Testimonials Section */}
-      <TestimonialsSection />
+      <TestimonialsSection label="Testimonials" heading="Trusted by Industry Leaders" />
 
       {/* Business Section */}
       <BusinessSection onContactClick={handleContactClick} />
