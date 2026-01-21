@@ -116,7 +116,7 @@
 .home-three-dream-text-section {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 0;
   flex: 1;
 }
 
@@ -131,6 +131,7 @@
   color: #dadada;
   max-width: 606px;
   padding-top: 5px;
+  margin-top: 0;
 }
 
 @media screen and (min-width: 1280px) {
