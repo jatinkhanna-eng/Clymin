@@ -3,6 +3,7 @@ import { Header } from '@/components/Header'
 import { Footer } from '@/components/Footer'
 import { BusinessSection } from '@/components/BusinessSection'
 import { TestimonialsSection } from '@/components/TestimonialsSection'
+import { BenefitItemCard } from '@/components/BenefitItemCard'
 import '../components/BusinessSection/BusinessSection.css'
 import './ApiSolutions.css'
 
@@ -241,114 +242,90 @@ export const ApiSolutions = () => {
               Achieve top-tier efficiency & streamline your workflows to drive growth with our expert API management
             </p>
             <div className="w-layout-grid grid-4">
-              <div id="w-node-_9aa2c59b-8523-2383-2d1f-5fdd547a4271-0969ff46" className="w-layout-blockcontainer career-data-grid-box w-container">
-                <div id="w-node-_9aa2c59b-8523-2383-2d1f-5fdd547a4272-0969ff46" className="w-layout-layout quick-stack-2 wf-layout-layout">
-                  <div className="w-layout-cell">
-                    <img
-                      src="https://cdn.prod.website-files.com/665075d333d845b30969fece/665075d333d845b3096a0085_Data%20Icon%20Six.webp"
-                      loading="lazy"
-                      width="51"
-                      alt=""
-                    />
-                  </div>
-                  <div className="w-layout-cell">
-                    <h6 className="heading">
-                      <strong className="bold-text-7">Data Integration</strong>
-                    </h6>
-                  </div>
-                </div>
-                <div className="text-block-5">Achieve flawless integration of data across various platforms and systems.</div>
-              </div>
-              <div id="w-node-_8455ddc2-f828-afbc-a724-3bfa86861645-0969ff46" className="w-layout-blockcontainer career-data-grid-box w-container">
-                <div id="w-node-_8455ddc2-f828-afbc-a724-3bfa86861646-0969ff46" className="w-layout-layout quick-stack-2 wf-layout-layout">
-                  <div className="w-layout-cell">
-                    <img
-                      src="https://cdn.prod.website-files.com/665075d333d845b30969fece/665075d333d845b3096a0075_Data%20Icon%20Five.webp"
-                      loading="lazy"
-                      width="51"
-                      alt=""
-                    />
-                  </div>
-                  <div className="w-layout-cell">
-                    <h6 className="heading">
-                      <strong className="bold-text-7">Secure Communication</strong>
-                    </h6>
-                  </div>
-                </div>
-                <div className="text-block-5">Ensure all your data transfers are protected with top-tier security protocols.</div>
-              </div>
-              <div id="w-node-_15940343-20bd-ddc4-b0a8-ec2d73ae98d1-0969ff46" className="w-layout-blockcontainer career-data-grid-box w-container">
-                <div id="w-node-_15940343-20bd-ddc4-b0a8-ec2d73ae98d2-0969ff46" className="w-layout-layout quick-stack-2 wf-layout-layout">
-                  <div className="w-layout-cell">
-                    <img
-                      src="https://cdn.prod.website-files.com/665075d333d845b30969fece/665075d333d845b3096a008a_Data%20Icon%20Four.webp"
-                      loading="lazy"
-                      width="51"
-                      alt=""
-                    />
-                  </div>
-                  <div className="w-layout-cell">
-                    <h6 className="heading">
-                      <strong className="bold-text-7">Drive Business Growth</strong>
-                    </h6>
-                  </div>
-                </div>
-                <div className="text-block-5">Leverage data insights to fuel your business expansion.</div>
-              </div>
-              <div id="w-node-_8bebb14d-26a4-a48f-24ee-17c36cd45af9-0969ff46" className="w-layout-blockcontainer career-data-grid-box w-container">
-                <div id="w-node-_8bebb14d-26a4-a48f-24ee-17c36cd45af9-0969ff46" className="w-layout-layout quick-stack-2 wf-layout-layout">
-                  <div className="w-layout-cell">
-                    <img
-                      src="https://cdn.prod.website-files.com/665075d333d845b30969fece/665075d333d845b3096a0087_Data%20icon%20Three.webp"
-                      loading="lazy"
-                      width="51"
-                      alt=""
-                    />
-                  </div>
-                  <div className="w-layout-cell">
-                    <h6 className="heading">
-                      <strong className="bold-text-7">Optimized Workflow</strong>
-                    </h6>
-                  </div>
-                </div>
-                <div className="text-block-5">Streamline your data processes for maximum efficiency.</div>
-              </div>
-              <div id="w-node-_27ba6e02-604d-de9f-e001-e74523f596f6-0969ff46" className="w-layout-blockcontainer career-data-grid-box w-container">
-                <div id="w-node-_27ba6e02-604d-de9f-e001-e74523f596f7-0969ff46" className="w-layout-layout quick-stack-2 wf-layout-layout">
-                  <div className="w-layout-cell">
-                    <img
-                      src="https://cdn.prod.website-files.com/665075d333d845b30969fece/665075d333d845b3096a0086_Data%20Icon%20Two.webp"
-                      loading="lazy"
-                      width="51"
-                      alt="web scraping and web crawling"
-                    />
-                  </div>
-                  <div className="w-layout-cell">
-                    <h6 className="heading">
-                      <strong className="bold-text-7">Maximize Efficiency</strong>
-                    </h6>
-                  </div>
-                </div>
-                <div className="text-block-5">Ensure your API ecosystem operates at its peak performance.</div>
-              </div>
-              <div id="w-node-c6a83aab-434f-4f50-cebe-4fba1728747b-0969ff46" className="w-layout-blockcontainer career-data-grid-box w-container">
-                <div id="w-node-c6a83aab-434f-4f50-cebe-4fba1728747c-0969ff46" className="w-layout-layout quick-stack-2 wf-layout-layout">
-                  <div className="w-layout-cell">
-                    <img
-                      src="https://cdn.prod.website-files.com/665075d333d845b30969fece/665075d333d845b3096a0088_Data%20Icon%20One.webp"
-                      loading="lazy"
-                      width="51"
-                      alt=""
-                    />
-                  </div>
-                  <div className="w-layout-cell">
-                    <h6 className="heading-3">
-                      <strong className="bold-text-7">Improve Experience</strong>
-                    </h6>
-                  </div>
-                </div>
-                <div className="text-block-5">Enhance productivity with efficient and user-friendly APIs.</div>
-              </div>
+              <BenefitItemCard
+                icon={{
+                  src: 'https://cdn.prod.website-files.com/665075d333d845b30969fece/665075d333d845b3096a0085_Data%20Icon%20Six.webp',
+                  width: 51,
+                  alt: '',
+                }}
+                heading="Data Integration"
+                description="Achieve flawless integration of data across various platforms and systems."
+                containerId="w-node-_9aa2c59b-8523-2383-2d1f-5fdd547a4271-0969ff46"
+                layoutId="w-node-_9aa2c59b-8523-2383-2d1f-5fdd547a4272-0969ff46"
+                containerClassName="w-layout-blockcontainer career-data-grid-box w-container"
+                headingTag="h6"
+                headingClassName="heading"
+              />
+              <BenefitItemCard
+                icon={{
+                  src: 'https://cdn.prod.website-files.com/665075d333d845b30969fece/665075d333d845b3096a0075_Data%20Icon%20Five.webp',
+                  width: 51,
+                  alt: '',
+                }}
+                heading="Secure Communication"
+                description="Ensure all your data transfers are protected with top-tier security protocols."
+                containerId="w-node-_8455ddc2-f828-afbc-a724-3bfa86861645-0969ff46"
+                layoutId="w-node-_8455ddc2-f828-afbc-a724-3bfa86861646-0969ff46"
+                containerClassName="w-layout-blockcontainer career-data-grid-box w-container"
+                headingTag="h6"
+                headingClassName="heading"
+              />
+              <BenefitItemCard
+                icon={{
+                  src: 'https://cdn.prod.website-files.com/665075d333d845b30969fece/665075d333d845b3096a008a_Data%20Icon%20Four.webp',
+                  width: 51,
+                  alt: '',
+                }}
+                heading="Drive Business Growth"
+                description="Leverage data insights to fuel your business expansion."
+                containerId="w-node-_15940343-20bd-ddc4-b0a8-ec2d73ae98d1-0969ff46"
+                layoutId="w-node-_15940343-20bd-ddc4-b0a8-ec2d73ae98d2-0969ff46"
+                containerClassName="w-layout-blockcontainer career-data-grid-box w-container"
+                headingTag="h6"
+                headingClassName="heading"
+              />
+              <BenefitItemCard
+                icon={{
+                  src: 'https://cdn.prod.website-files.com/665075d333d845b30969fece/665075d333d845b3096a0087_Data%20icon%20Three.webp',
+                  width: 51,
+                  alt: '',
+                }}
+                heading="Optimized Workflow"
+                description="Streamline your data processes for maximum efficiency."
+                containerId="w-node-_8bebb14d-26a4-a48f-24ee-17c36cd45af9-0969ff46"
+                layoutId="w-node-_8bebb14d-26a4-a48f-24ee-17c36cd45af9-0969ff46"
+                containerClassName="w-layout-blockcontainer career-data-grid-box w-container"
+                headingTag="h6"
+                headingClassName="heading"
+              />
+              <BenefitItemCard
+                icon={{
+                  src: 'https://cdn.prod.website-files.com/665075d333d845b30969fece/665075d333d845b3096a0086_Data%20Icon%20Two.webp',
+                  width: 51,
+                  alt: 'web scraping and web crawling',
+                }}
+                heading="Maximize Efficiency"
+                description="Ensure your API ecosystem operates at its peak performance."
+                containerId="w-node-_27ba6e02-604d-de9f-e001-e74523f596f6-0969ff46"
+                layoutId="w-node-_27ba6e02-604d-de9f-e001-e74523f596f7-0969ff46"
+                containerClassName="w-layout-blockcontainer career-data-grid-box w-container"
+                headingTag="h6"
+                headingClassName="heading"
+              />
+              <BenefitItemCard
+                icon={{
+                  src: 'https://cdn.prod.website-files.com/665075d333d845b30969fece/665075d333d845b3096a0088_Data%20Icon%20One.webp',
+                  width: 51,
+                  alt: '',
+                }}
+                heading="Improve Experience"
+                description="Enhance productivity with efficient and user-friendly APIs."
+                containerId="w-node-c6a83aab-434f-4f50-cebe-4fba1728747b-0969ff46"
+                layoutId="w-node-c6a83aab-434f-4f50-cebe-4fba1728747c-0969ff46"
+                containerClassName="w-layout-blockcontainer career-data-grid-box w-container"
+                headingTag="h6"
+                headingClassName="heading-3"
+              />
             </div>
           </div>
         </div>

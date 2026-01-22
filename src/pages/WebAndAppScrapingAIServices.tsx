@@ -5,6 +5,7 @@ import { Footer } from '@/components/Footer'
 import { BusinessSection } from '@/components/BusinessSection'
 import { TestimonialsSection } from '@/components/TestimonialsSection'
 import { ProjectSection } from '@/components/ProjectSection'
+import { BenefitItemCard } from '@/components/BenefitItemCard'
 import '../components/BusinessSection/BusinessSection.css'
 import './WebAndAppScrapingAIServices.css'
 
@@ -385,30 +386,48 @@ export const WebAndAppScrapingAIServices = () => {
         </div>
         <div className="home-one-container align-center">
           <div className="w-layout-grid home-one-hover-grid">
-            <div className="home-one-manager-grid-block startech-home-one-magager-grid-card-one relative overflow style-none">
-              <div className="home-one-grid-border absolute"></div>
-              <div className="home-one-manager-grid-inner-box-one">
-                <img src="https://cdn.prod.website-files.com/665075d333d845b30969fece/665075d333d845b30969ff85_Table.webp" alt="" width="51" height="51" className="home-one-manager-icon" />
-                <div className="home-one-manager-grid-text-heading-two"><strong>Advanced Web Scraping Solutions</strong></div>
-              </div>
-              <div className="text-block-6 margin-grid-paragraph">Leverage our cutting-edge web scraping services to gain deep insights. Our technology ensures efficient data collection, transforming how you analyze and utilize information.</div>
-            </div>
-            <div className="home-one-manager-grid-block home-one-manager-card-tow relative overflow style-none">
-              <div className="home-one-grid-border absolute background-color-orange"></div>
-              <div className="home-one-manager-grid-inner-box-one">
-                <img src="https://cdn.prod.website-files.com/665075d333d845b30969fece/665075d333d845b30969ff80_Rocket.webp" alt="" width="51" height="51" className="startech-home-one-manager-icons" />
-                <div className="home-one-manager-grid-text-heading-two"><strong>Mobile Scraping for Real-Time Insights</strong></div>
-              </div>
-              <div className="text-block-6 margin-grid-paragraph">Unlock the potential of mobile data with our robust scraping solutions. Extract real-time, valuable data from mobile apps to stay ahead and make smarter business decisions.</div>
-            </div>
-            <div className="home-one-manager-grid-block home-one-manager-card-three relative overflow style-none">
-              <div className="home-one-grid-border absolute background-color-blue"></div>
-              <div className="home-one-manager-grid-inner-box-one">
-                <img src="https://cdn.prod.website-files.com/665075d333d845b30969fece/665075d333d845b30969ff7d_Save%20Earth.webp" alt="" width="51" height="51" className="home-one-manager-icon" />
-                <div className="home-one-manager-grid-text-heading-two"><strong>Efficient Data Integration</strong></div>
-              </div>
-              <div className="text-block-6 margin-grid-paragraph">Streamline your data processes with our comprehensive scraping solutions. Enhance operational efficiency and customer experiences through seamless data integration.</div>
-            </div>
+            <BenefitItemCard
+              icon={{
+                src: 'https://cdn.prod.website-files.com/665075d333d845b30969fece/665075d333d845b30969ff85_Table.webp',
+                width: 51,
+                height: 51,
+                alt: '',
+                className: 'home-one-manager-icon',
+              }}
+              heading="Advanced Web Scraping Solutions"
+              description="Leverage our cutting-edge web scraping services to gain deep insights. Our technology ensures efficient data collection, transforming how you analyze and utilize information."
+              variant="manager-grid"
+              containerClassName="home-one-manager-grid-block startech-home-one-magager-grid-card-one relative overflow style-none"
+              borderClassName=""
+            />
+            <BenefitItemCard
+              icon={{
+                src: 'https://cdn.prod.website-files.com/665075d333d845b30969fece/665075d333d845b30969ff80_Rocket.webp',
+                width: 51,
+                height: 51,
+                alt: '',
+                className: 'startech-home-one-manager-icons',
+              }}
+              heading="Mobile Scraping for Real-Time Insights"
+              description="Unlock the potential of mobile data with our robust scraping solutions. Extract real-time, valuable data from mobile apps to stay ahead and make smarter business decisions."
+              variant="manager-grid"
+              containerClassName="home-one-manager-grid-block home-one-manager-card-tow relative overflow style-none"
+              borderClassName="background-color-orange"
+            />
+            <BenefitItemCard
+              icon={{
+                src: 'https://cdn.prod.website-files.com/665075d333d845b30969fece/665075d333d845b30969ff7d_Save%20Earth.webp',
+                width: 51,
+                height: 51,
+                alt: '',
+                className: 'home-one-manager-icon',
+              }}
+              heading="Efficient Data Integration"
+              description="Streamline your data processes with our comprehensive scraping solutions. Enhance operational efficiency and customer experiences through seamless data integration."
+              variant="manager-grid"
+              containerClassName="home-one-manager-grid-block home-one-manager-card-three relative overflow style-none"
+              borderClassName="background-color-blue"
+            />
           </div>
         </div>
       </section>

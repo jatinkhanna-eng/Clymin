@@ -3,6 +3,7 @@ import { Header } from '@/components/Header'
 import { Footer } from '@/components/Footer'
 import { BusinessSection } from '@/components/BusinessSection'
 import { TestimonialsSection } from '@/components/TestimonialsSection'
+import { BenefitItemCard } from '@/components/BenefitItemCard'
 import '../components/BusinessSection/BusinessSection.css'
 import './DataCleansingTransformation.css'
 
@@ -254,167 +255,85 @@ export const DataCleansingTransformation = () => {
               business stays ahead in today's competitive landscape.
             </p>
             <div className="w-layout-grid grid-3">
-              <div
-                id="w-node-bf088039-b2c7-60bf-d31e-6203dd5e8131-0969ff32"
-                className="w-layout-blockcontainer container-3 w-container"
-              >
-                <div
-                  id="w-node-bf088039-b2c7-60bf-d31e-6203dd5e8132-0969ff32"
-                  className="w-layout-layout quick-stack-2 wf-layout-layout"
-                >
-                  <div className="w-layout-cell">
-                    <img
-                      src="https://cdn.prod.website-files.com/665075d333d845b30969fece/665075d333d845b3096a0085_Data%20Icon%20Six.webp"
-                      loading="lazy"
-                      width="51"
-                      alt=""
-                    />
-                  </div>
-                  <div className="w-layout-cell cell">
-                    <h6 className="heading-5">
-                      <strong className="bold-text-7">Improved Data Quality</strong>
-                    </h6>
-                  </div>
-                </div>
-                <div className="text-block-5">
-                  Ensure your data is accurate, consistent, and reliable, eliminating errors and
-                  enhancing overall quality.
-                </div>
-              </div>
-              <div
-                id="w-node-bf088039-b2c7-60bf-d31e-6203dd5e813b-0969ff32"
-                className="w-layout-blockcontainer container-3 w-container"
-              >
-                <div
-                  id="w-node-bf088039-b2c7-60bf-d31e-6203dd5e813c-0969ff32"
-                  className="w-layout-layout quick-stack-2 wf-layout-layout"
-                >
-                  <div className="w-layout-cell">
-                    <img
-                      src="https://cdn.prod.website-files.com/665075d333d845b30969fece/665075d333d845b3096a0075_Data%20Icon%20Five.webp"
-                      loading="lazy"
-                      width="51"
-                      height="51"
-                      alt=""
-                    />
-                  </div>
-                  <div className="w-layout-cell">
-                    <h6 className="heading-6">
-                      <strong className="bold-text-7">Enhanced Insights</strong>
-                    </h6>
-                  </div>
-                </div>
-                <div className="text-block-5">
-                  Gain deeper insights into your business operations, helping you make more informed
-                  decisions.
-                </div>
-              </div>
-              <div
-                id="w-node-bf088039-b2c7-60bf-d31e-6203dd5e8145-0969ff32"
-                className="w-layout-blockcontainer container-3 w-container"
-              >
-                <div
-                  id="w-node-bf088039-b2c7-60bf-d31e-6203dd5e8146-0969ff32"
-                  className="w-layout-layout quick-stack-2 wf-layout-layout"
-                >
-                  <div className="w-layout-cell">
-                    <img
-                      src="https://cdn.prod.website-files.com/665075d333d845b30969fece/665075d333d845b3096a008a_Data%20Icon%20Four.webp"
-                      loading="lazy"
-                      width="51"
-                      alt=""
-                    />
-                  </div>
-                  <div className="w-layout-cell">
-                    <h6 className="heading-7">
-                      <strong className="bold-text-7">Minimized Errors</strong>
-                    </h6>
-                  </div>
-                </div>
-                <div className="text-block-5">
-                  Minimize data errors and inconsistencies, ensuring smooth and efficient operations.
-                </div>
-              </div>
-              <div
-                id="w-node-bf088039-b2c7-60bf-d31e-6203dd5e814f-0969ff32"
-                className="w-layout-blockcontainer container-3 w-container"
-              >
-                <div
-                  id="w-node-bf088039-b2c7-60bf-d31e-6203dd5e814f-0969ff32"
-                  className="w-layout-layout quick-stack-2 wf-layout-layout"
-                >
-                  <div className="w-layout-cell">
-                    <img
-                      src="https://cdn.prod.website-files.com/665075d333d845b30969fece/665075d333d845b3096a0087_Data%20icon%20Three.webp"
-                      loading="lazy"
-                      width="51"
-                      alt=""
-                    />
-                  </div>
-                  <div className="w-layout-cell">
-                    <h6 className="heading-4 newp1">
-                      <strong className="bold-text-7">Streamlined Data Analysis</strong>
-                    </h6>
-                  </div>
-                </div>
-                <div className="text-block-5">
-                  Integrate and analyze data seamlessly, providing a unified view of your information.
-                </div>
-              </div>
-              <div
-                id="w-node-_7ed06034-fb0f-39dc-9571-91fc7ebaa1c5-0969ff32"
-                className="w-layout-blockcontainer container-3 w-container"
-              >
-                <div
-                  id="w-node-_7ed06034-fb0f-39dc-9571-91fc7ebaa1c6-0969ff32"
-                  className="w-layout-layout quick-stack-2 wf-layout-layout"
-                >
-                  <div className="w-layout-cell">
-                    <img
-                      src="https://cdn.prod.website-files.com/665075d333d845b30969fece/665075d333d845b3096a0086_Data%20Icon%20Two.webp"
-                      loading="lazy"
-                      width="51"
-                      alt="web scraping and web crawling"
-                    />
-                  </div>
-                  <div className="w-layout-cell">
-                    <h6 className="heading-4">
-                      <strong className="bold-text-7">Better Decision-Making</strong>
-                    </h6>
-                  </div>
-                </div>
-                <div className="text-block-5">
-                  Rely on accurate and reliable data to make strategic business decisions with
-                  confidence.
-                </div>
-              </div>
-              <div
-                id="w-node-_9f3ea25f-9534-e5b6-950f-cfebc72f788b-0969ff32"
-                className="w-layout-blockcontainer container-3 w-container"
-              >
-                <div
-                  id="w-node-_9f3ea25f-9534-e5b6-950f-cfebc72f788c-0969ff32"
-                  className="w-layout-layout quick-stack-2 wf-layout-layout"
-                >
-                  <div className="w-layout-cell">
-                    <img
-                      src="https://cdn.prod.website-files.com/665075d333d845b30969fece/665075d333d845b3096a0087_Data%20icon%20Three.webp"
-                      loading="lazy"
-                      width="51"
-                      alt=""
-                    />
-                  </div>
-                  <div className="w-layout-cell">
-                    <h6 className="heading-4 newp1">
-                      <strong className="bold-text-7">Enhanced Efficiency</strong>
-                    </h6>
-                  </div>
-                </div>
-                <div className="text-block-5">
-                  Optimize operations with streamlined data management, cutting costs and boosting
-                  productivity
-                </div>
-              </div>
+              <BenefitItemCard
+                icon={{
+                  src: 'https://cdn.prod.website-files.com/665075d333d845b30969fece/665075d333d845b3096a0085_Data%20Icon%20Six.webp',
+                  width: 51,
+                  alt: '',
+                }}
+                heading="Improved Data Quality"
+                description="Ensure your data is accurate, consistent, and reliable, eliminating errors and enhancing overall quality."
+                containerId="w-node-bf088039-b2c7-60bf-d31e-6203dd5e8131-0969ff32"
+                layoutId="w-node-bf088039-b2c7-60bf-d31e-6203dd5e8132-0969ff32"
+                headingTag="h6"
+                headingClassName="heading-5"
+              />
+              <BenefitItemCard
+                icon={{
+                  src: 'https://cdn.prod.website-files.com/665075d333d845b30969fece/665075d333d845b3096a0075_Data%20Icon%20Five.webp',
+                  width: 51,
+                  height: 51,
+                  alt: '',
+                }}
+                heading="Enhanced Insights"
+                description="Gain deeper insights into your business operations, helping you make more informed decisions."
+                containerId="w-node-bf088039-b2c7-60bf-d31e-6203dd5e813b-0969ff32"
+                layoutId="w-node-bf088039-b2c7-60bf-d31e-6203dd5e813c-0969ff32"
+                headingTag="h6"
+                headingClassName="heading-6"
+              />
+              <BenefitItemCard
+                icon={{
+                  src: 'https://cdn.prod.website-files.com/665075d333d845b30969fece/665075d333d845b3096a008a_Data%20Icon%20Four.webp',
+                  width: 51,
+                  alt: '',
+                }}
+                heading="Minimized Errors"
+                description="Minimize data errors and inconsistencies, ensuring smooth and efficient operations."
+                containerId="w-node-bf088039-b2c7-60bf-d31e-6203dd5e8145-0969ff32"
+                layoutId="w-node-bf088039-b2c7-60bf-d31e-6203dd5e8146-0969ff32"
+                headingTag="h6"
+                headingClassName="heading-7"
+              />
+              <BenefitItemCard
+                icon={{
+                  src: 'https://cdn.prod.website-files.com/665075d333d845b30969fece/665075d333d845b3096a0087_Data%20icon%20Three.webp',
+                  width: 51,
+                  alt: '',
+                }}
+                heading="Streamlined Data Analysis"
+                description="Integrate and analyze data seamlessly, providing a unified view of your information."
+                containerId="w-node-bf088039-b2c7-60bf-d31e-6203dd5e814f-0969ff32"
+                layoutId="w-node-bf088039-b2c7-60bf-d31e-6203dd5e814f-0969ff32"
+                headingTag="h6"
+                headingClassName="heading-4 newp1"
+              />
+              <BenefitItemCard
+                icon={{
+                  src: 'https://cdn.prod.website-files.com/665075d333d845b30969fece/665075d333d845b3096a0086_Data%20Icon%20Two.webp',
+                  width: 51,
+                  alt: 'web scraping and web crawling',
+                }}
+                heading="Better Decision-Making"
+                description="Rely on accurate and reliable data to make strategic business decisions with confidence."
+                containerId="w-node-_7ed06034-fb0f-39dc-9571-91fc7ebaa1c5-0969ff32"
+                layoutId="w-node-_7ed06034-fb0f-39dc-9571-91fc7ebaa1c6-0969ff32"
+                headingTag="h6"
+                headingClassName="heading-4"
+              />
+              <BenefitItemCard
+                icon={{
+                  src: 'https://cdn.prod.website-files.com/665075d333d845b30969fece/665075d333d845b3096a0087_Data%20icon%20Three.webp',
+                  width: 51,
+                  alt: '',
+                }}
+                heading="Enhanced Efficiency"
+                description="Optimize operations with streamlined data management, cutting costs and boosting productivity"
+                containerId="w-node-_9f3ea25f-9534-e5b6-950f-cfebc72f788b-0969ff32"
+                layoutId="w-node-_9f3ea25f-9534-e5b6-950f-cfebc72f788c-0969ff32"
+                headingTag="h6"
+                headingClassName="heading-4 newp1"
+              />
             </div>
           </div>
         </div>
