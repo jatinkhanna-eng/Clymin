@@ -4,6 +4,7 @@ import { Header } from '@/components/Header'
 import { Footer } from '@/components/Footer'
 import { BusinessSection } from '@/components/BusinessSection'
 import { TestimonialsSection } from '@/components/TestimonialsSection'
+import { BenefitItemCard } from '@/components/BenefitItemCard'
 import '../components/BusinessSection/BusinessSection.css'
 import './AutomatedMonitoring.css'
 
@@ -264,115 +265,79 @@ export const AutomatedMonitoring = () => {
               Enhance your business operations with our state-of-the-art automated monitoring solutions. Stay ahead with real-time insights and proactive strategies.
             </p>
             <div className="w-layout-grid grid-3">
-              <div id="w-node-c7112956-a07e-57a3-a80f-504566538b65-096a000e" className="w-layout-blockcontainer container-3 w-container">
-                <div id="w-node-c7112956-a07e-57a3-a80f-504566538b66-096a000e" className="w-layout-layout quick-stack-2 wf-layout-layout">
-                  <div className="w-layout-cell">
-                    <img
-                      src="https://cdn.prod.website-files.com/665075d333d845b30969fece/665075d333d845b3096a0085_Data%20Icon%20Six.webp"
-                      loading="lazy"
-                      width="51"
-                      alt=""
-                    />
-                  </div>
-                  <div className="w-layout-cell">
-                    <h5 className="heading-8">
-                      <strong className="bold-text-7">Live Price Tracking</strong>
-                    </h5>
-                  </div>
-                </div>
-                <div className="text-block-5">Stay competitive with real-time price monitoring. Monitor competitor prices effortlessly and adjust your strategies instantly.</div>
-              </div>
-              <div id="w-node-c7112956-a07e-57a3-a80f-504566538b6f-096a000e" className="w-layout-blockcontainer container-3 w-container">
-                <div id="w-node-c7112956-a07e-57a3-a80f-504566538b70-096a000e" className="w-layout-layout quick-stack-2 wf-layout-layout">
-                  <div className="w-layout-cell">
-                    <img
-                      src="https://cdn.prod.website-files.com/665075d333d845b30969fece/665075d333d845b3096a0075_Data%20Icon%20Five.webp"
-                      loading="lazy"
-                      width="51"
-                      height="51"
-                      alt=""
-                    />
-                  </div>
-                  <div className="w-layout-cell">
-                    <h5 className="heading-9">
-                      <strong className="bold-text-7">Adaptive Pricing</strong>
-                    </h5>
-                  </div>
-                </div>
-                <div className="text-block-5">Optimize pricing strategies dynamically. Utilize automated insights to adjust prices based on market trends and demand.</div>
-              </div>
-              <div id="w-node-c7112956-a07e-57a3-a80f-504566538b79-096a000e" className="w-layout-blockcontainer container-3 w-container">
-                <div id="w-node-c7112956-a07e-57a3-a80f-504566538b7a-096a000e" className="w-layout-layout quick-stack-2 wf-layout-layout">
-                  <div className="w-layout-cell">
-                    <img
-                      src="https://cdn.prod.website-files.com/665075d333d845b30969fece/665075d333d845b3096a008a_Data%20Icon%20Four.webp"
-                      loading="lazy"
-                      width="51"
-                      alt=""
-                    />
-                  </div>
-                  <div className="w-layout-cell">
-                    <h5 className="heading-10">
-                      <strong className="bold-text-7">Brand Protection</strong>
-                    </h5>
-                  </div>
-                </div>
-                <div className="text-block-5">Protect and enhance your brand's reputation. Use automated monitoring to track online mentions and safeguard your brand's image.</div>
-              </div>
-              <div id="w-node-c7112956-a07e-57a3-a80f-504566538b83-096a000e" className="w-layout-blockcontainer container-3 w-container">
-                <div id="w-node-c7112956-a07e-57a3-a80f-504566538b84-096a000e" className="w-layout-layout quick-stack-2 wf-layout-layout">
-                  <div className="w-layout-cell">
-                    <img
-                      src="https://cdn.prod.website-files.com/665075d333d845b30969fece/665075d333d845b3096a0087_Data%20icon%20Three.webp"
-                      loading="lazy"
-                      width="51"
-                      alt=""
-                    />
-                  </div>
-                  <div className="w-layout-cell">
-                    <h5 className="heading-11">
-                      <strong className="bold-text-7">Market Agility</strong>
-                    </h5>
-                  </div>
-                </div>
-                <div className="text-block-5">Respond quickly to market shifts and customer feedback. Leverage automated alerts to make prompt business decisions.</div>
-              </div>
-              <div id="w-node-c7112956-a07e-57a3-a80f-504566538b8d-096a000e" className="w-layout-blockcontainer container-3 w-container">
-                <div id="w-node-c7112956-a07e-57a3-a80f-504566538b8e-096a000e" className="w-layout-layout quick-stack-2 wf-layout-layout">
-                  <div className="w-layout-cell">
-                    <img
-                      src="https://cdn.prod.website-files.com/665075d333d845b30969fece/665075d333d845b3096a0086_Data%20Icon%20Two.webp"
-                      loading="lazy"
-                      width="51"
-                      alt="web scraping and web crawling"
-                    />
-                  </div>
-                  <div className="w-layout-cell">
-                    <h5 className="heading-12">
-                      <strong className="bold-text-7">Trend Insights</strong>
-                    </h5>
-                  </div>
-                </div>
-                <div className="text-block-5">Gain insights into market trends and customer sentiments. Employ automated data collection to understand market dynamics and customer preferences.</div>
-              </div>
-              <div id="w-node-a366d8ea-227d-4ddd-cd7a-fe85fb41c95f-096a000e" className="w-layout-blockcontainer container-3 w-container">
-                <div id="w-node-a366d8ea-227d-4ddd-cd7a-fe85fb41c960-096a000e" className="w-layout-layout quick-stack-2 wf-layout-layout">
-                  <div className="w-layout-cell">
-                    <img
-                      src="https://cdn.prod.website-files.com/665075d333d845b30969fece/665075d333d845b3096a0086_Data%20Icon%20Two.webp"
-                      loading="lazy"
-                      width="51"
-                      alt="web scraping and web crawling"
-                    />
-                  </div>
-                  <div className="w-layout-cell">
-                    <h5 className="heading-12">
-                      <strong>Stock Optimization</strong>
-                    </h5>
-                  </div>
-                </div>
-                <div className="text-block-5">Streamline your inventory management. Use real-time data to optimize stock levels, reduce overstocking, and prevent stockouts.</div>
-              </div>
+              <BenefitItemCard
+                icon={{
+                  src: 'https://cdn.prod.website-files.com/665075d333d845b30969fece/665075d333d845b3096a0085_Data%20Icon%20Six.webp',
+                  width: 51,
+                  alt: '',
+                }}
+                heading="Live Price Tracking"
+                description="Stay competitive with real-time price monitoring. Monitor competitor prices effortlessly and adjust your strategies instantly."
+                containerId="w-node-c7112956-a07e-57a3-a80f-504566538b65-096a000e"
+                layoutId="w-node-c7112956-a07e-57a3-a80f-504566538b66-096a000e"
+              />
+              <BenefitItemCard
+                icon={{
+                  src: 'https://cdn.prod.website-files.com/665075d333d845b30969fece/665075d333d845b3096a0075_Data%20Icon%20Five.webp',
+                  width: 51,
+                  height: 51,
+                  alt: '',
+                }}
+                heading="Adaptive Pricing"
+                description="Optimize pricing strategies dynamically. Utilize automated insights to adjust prices based on market trends and demand."
+                containerId="w-node-c7112956-a07e-57a3-a80f-504566538b6f-096a000e"
+                layoutId="w-node-c7112956-a07e-57a3-a80f-504566538b70-096a000e"
+                headingClassName="heading-9"
+              />
+              <BenefitItemCard
+                icon={{
+                  src: 'https://cdn.prod.website-files.com/665075d333d845b30969fece/665075d333d845b3096a008a_Data%20Icon%20Four.webp',
+                  width: 51,
+                  alt: '',
+                }}
+                heading="Brand Protection"
+                description="Protect and enhance your brand's reputation. Use automated monitoring to track online mentions and safeguard your brand's image."
+                containerId="w-node-c7112956-a07e-57a3-a80f-504566538b79-096a000e"
+                layoutId="w-node-c7112956-a07e-57a3-a80f-504566538b7a-096a000e"
+                headingClassName="heading-10"
+              />
+              <BenefitItemCard
+                icon={{
+                  src: 'https://cdn.prod.website-files.com/665075d333d845b30969fece/665075d333d845b3096a0087_Data%20icon%20Three.webp',
+                  width: 51,
+                  alt: '',
+                }}
+                heading="Market Agility"
+                description="Respond quickly to market shifts and customer feedback. Leverage automated alerts to make prompt business decisions."
+                containerId="w-node-c7112956-a07e-57a3-a80f-504566538b83-096a000e"
+                layoutId="w-node-c7112956-a07e-57a3-a80f-504566538b84-096a000e"
+                headingClassName="heading-11"
+              />
+              <BenefitItemCard
+                icon={{
+                  src: 'https://cdn.prod.website-files.com/665075d333d845b30969fece/665075d333d845b3096a0086_Data%20Icon%20Two.webp',
+                  width: 51,
+                  alt: 'web scraping and web crawling',
+                }}
+                heading="Trend Insights"
+                description="Gain insights into market trends and customer sentiments. Employ automated data collection to understand market dynamics and customer preferences."
+                containerId="w-node-c7112956-a07e-57a3-a80f-504566538b8d-096a000e"
+                layoutId="w-node-c7112956-a07e-57a3-a80f-504566538b8e-096a000e"
+                headingClassName="heading-12"
+              />
+              <BenefitItemCard
+                icon={{
+                  src: 'https://cdn.prod.website-files.com/665075d333d845b30969fece/665075d333d845b3096a0086_Data%20Icon%20Two.webp',
+                  width: 51,
+                  alt: 'web scraping and web crawling',
+                }}
+                heading="Stock Optimization"
+                description="Streamline your inventory management. Use real-time data to optimize stock levels, reduce overstocking, and prevent stockouts."
+                containerId="w-node-a366d8ea-227d-4ddd-cd7a-fe85fb41c95f-096a000e"
+                layoutId="w-node-a366d8ea-227d-4ddd-cd7a-fe85fb41c960-096a000e"
+                headingClassName="heading-12"
+                strongClassName=""
+              />
             </div>
           </div>
         </div>
@@ -742,7 +707,7 @@ export const AutomatedMonitoring = () => {
       </section>
 
       {/* Testimonials Section */}
-      <TestimonialsSection />
+      <TestimonialsSection label="Testimonials" heading="Trusted by Industry Leaders" />
 
       {/* Business Section */}
       <BusinessSection onContactClick={handleContactClick} />

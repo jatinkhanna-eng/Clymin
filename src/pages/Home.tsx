@@ -84,7 +84,7 @@ export const Home = () => {
       <IndustriesSection />
       <ProjectSection />
       <HowItWorksSection />
-      <TestimonialsSection />
+      <TestimonialsSection label="Testimonials" heading="Trusted by Industry Leaders" />
       <BusinessSection onContactClick={handleContactClick} />
       <Footer />
     </div>

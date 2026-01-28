@@ -38,6 +38,12 @@ export type { ContactButtonProps } from './ContactButton'
 export { TestimonialCard } from './TestimonialCard'
 export type { TestimonialCardProps } from './TestimonialCard'
 
+export { TestimonialsSection } from './TestimonialsSection'
+export type { TestimonialsSectionProps } from './TestimonialsSection'
+
+export { BenefitItemCard } from './BenefitItemCard'
+export type { BenefitItemCardProps } from './BenefitItemCard'
+
 export { StepItem } from './StepItem'
 export type { StepItemProps } from './StepItem'
 

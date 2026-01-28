@@ -1,3 +1,4 @@
+import React from 'react'
 import './TestimonialCard.css'
 
 export interface TestimonialCardProps {
@@ -42,7 +43,7 @@ export const TestimonialCard = ({
             <div className={`text-block-nine ${nameClassName}`}>
               <strong>{name}</strong>
             </div>
-            <div className={`text-block-eight about-three-card-text-size ${roleClassName}`}>
+            <div className={`about-three-card-text-size ${roleClassName}`}>
               <strong>{role}</strong>
             </div>
           </div>
@@ -57,11 +58,7 @@ export const TestimonialCard = ({
           />
         )}
       </div>
-      {typeof quote === 'string' ? (
-        <p className={`about-three-testimonial-card-paragraph ${quoteClassName}`}>{quote}</p>
-      ) : (
-        <div className={`about-three-testimonial-card-paragraph ${quoteClassName}`}>{quote}</div>
-      )}
+      <p className={`about-three-testimonial-card-paragraph ${quoteClassName}`}>{quote}</p>
     </div>
   )
 }

@@ -4,6 +4,8 @@ import { Header } from '@/components/Header'
 import { Footer } from '@/components/Footer'
 import { BusinessSection } from '@/components/BusinessSection'
 import { TestimonialsSection } from '@/components/TestimonialsSection'
+import { ProjectSection } from '@/components/ProjectSection'
+import { BenefitItemCard } from '@/components/BenefitItemCard'
 import '../components/BusinessSection/BusinessSection.css'
 import './MobileAppScrapingServices.css'
 
@@ -652,108 +654,88 @@ export const MobileAppScrapingServices = () => {
               Enhance your business operations with our state-of-the-art automated monitoring solutions. Stay ahead with real-time insights and proactive strategies.
             </p>
             <div className="w-layout-grid grid-3">
-              <div id="w-node-_83c401e8-0d61-cacd-b893-51c94ad88d41-d34f12fc" className="w-layout-blockcontainer container-3 w-container">
-                <div id="w-node-_83c401e8-0d61-cacd-b893-51c94ad88d42-d34f12fc" className="w-layout-layout quick-stack-2 wf-layout-layout">
-                  <div className="w-layout-cell">
-                    <img src="https://cdn.prod.website-files.com/665075d333d845b30969fece/665075d333d845b3096a0085_Data%20Icon%20Six.webp" loading="lazy" width="51" alt="" />
-                  </div>
-                  <div className="w-layout-cell">
-                    <h5 className="heading-8">
-                      <strong className="bold-text-7">Market Insights</strong>
-                    </h5>
-                  </div>
-                </div>
-                <div className="text-block-5">Clymin analyzes data from popular mobile apps, providing a deeper understanding of market trends and consumer behavior, enabling informed decision-making.</div>
-              </div>
-              <div id="w-node-_83c401e8-0d61-cacd-b893-51c94ad88d4b-d34f12fc" className="w-layout-blockcontainer container-3 w-container">
-                <div id="w-node-_83c401e8-0d61-cacd-b893-51c94ad88d4c-d34f12fc" className="w-layout-layout quick-stack-2 wf-layout-layout">
-                  <div className="w-layout-cell">
-                    <img src="https://cdn.prod.website-files.com/665075d333d845b30969fece/665075d333d845b3096a0075_Data%20Icon%20Five.webp" loading="lazy" width="51" height="51" alt="" />
-                  </div>
-                  <div className="w-layout-cell">
-                    <h5 className="heading-9">
-                      <strong className="bold-text-7">Informed Choices</strong>
-                    </h5>
-                  </div>
-                </div>
-                <div className="text-block-5">Access real-time data through Clymin for swift responses to market changes, ensuring your business remains agile and competitive.</div>
-              </div>
-              <div id="w-node-_83c401e8-0d61-cacd-b893-51c94ad88d55-d34f12fc" className="w-layout-blockcontainer container-3 w-container">
-                <div id="w-node-_83c401e8-0d61-cacd-b893-51c94ad88d56-d34f12fc" className="w-layout-layout quick-stack-2 wf-layout-layout">
-                  <div className="w-layout-cell">
-                    <img src="https://cdn.prod.website-files.com/665075d333d845b30969fece/665075d333d845b3096a008a_Data%20Icon%20Four.webp" loading="lazy" width="51" alt="" />
-                  </div>
-                  <div className="w-layout-cell">
-                    <h5 className="heading-10">
-                      <strong className="bold-text-7">Feedback Analysis</strong>
-                    </h5>
-                  </div>
-                </div>
-                <div className="text-block-5">Scrape user reviews to enhance products and services based on genuine customer feedback, driving innovation and customer satisfaction.</div>
-              </div>
-              <div id="w-node-_83c401e8-0d61-cacd-b893-51c94ad88d5f-d34f12fc" className="w-layout-blockcontainer container-3 w-container">
-                <div id="w-node-_83c401e8-0d61-cacd-b893-51c94ad88d60-d34f12fc" className="w-layout-layout quick-stack-2 wf-layout-layout">
-                  <div className="w-layout-cell">
-                    <img src="https://cdn.prod.website-files.com/665075d333d845b30969fece/665075d333d845b3096a0087_Data%20icon%20Three.webp" loading="lazy" width="51" alt="" />
-                  </div>
-                  <div className="w-layout-cell">
-                    <h5 className="heading-11">
-                      <strong className="bold-text-7">Flexible Analytics</strong>
-                    </h5>
-                  </div>
-                </div>
-                <div className="text-block-5">Clymin offers customizable data extraction solutions tailored to your specific needs, providing flexibility and scalability to adapt as your business grows.</div>
-              </div>
-              <div id="w-node-_83c401e8-0d61-cacd-b893-51c94ad88d69-d34f12fc" className="w-layout-blockcontainer container-3 w-container">
-                <div id="w-node-_83c401e8-0d61-cacd-b893-51c94ad88d6a-d34f12fc" className="w-layout-layout quick-stack-2 wf-layout-layout">
-                  <div className="w-layout-cell">
-                    <img src="https://cdn.prod.website-files.com/665075d333d845b30969fece/665075d333d845b3096a0086_Data%20Icon%20Two.webp" loading="lazy" width="51" alt="web scraping and web crawling" />
-                  </div>
-                  <div className="w-layout-cell">
-                    <h5 className="heading-12">
-                      <strong className="pos1">Competitive Edge</strong>
-                    </h5>
-                  </div>
-                </div>
-                <div className="text-block-5">Monitor competitors' apps using Clymin to gather insights that inform strategic adjustments, ensuring you stay ahead in the market.</div>
-              </div>
-              <div id="w-node-_83c401e8-0d61-cacd-b893-51c94ad88d73-d34f12fc" className="w-layout-blockcontainer container-3 w-container">
-                <div id="w-node-_83c401e8-0d61-cacd-b893-51c94ad88d74-d34f12fc" className="w-layout-layout quick-stack-2 wf-layout-layout">
-                  <div className="w-layout-cell">
-                    <img src="https://cdn.prod.website-files.com/665075d333d845b30969fece/665075d333d845b3096a0086_Data%20Icon%20Two.webp" loading="lazy" width="51" alt="web scraping and web crawling" className="image-39" />
-                  </div>
-                  <div className="w-layout-cell">
-                    <h5 className="heading-12">
-                      <strong className="pos1">Cost Efficiency</strong>
-                    </h5>
-                  </div>
-                </div>
-                <div className="text-block-5">Automate data extraction with Clymin, significantly reducing manpower costs while boosting productivity, allowing your team to focus on core tasks.</div>
-              </div>
+              <BenefitItemCard
+                icon={{
+                  src: 'https://cdn.prod.website-files.com/665075d333d845b30969fece/665075d333d845b3096a0085_Data%20Icon%20Six.webp',
+                  width: 51,
+                  alt: '',
+                }}
+                heading="Market Insights"
+                description="Clymin analyzes data from popular mobile apps, providing a deeper understanding of market trends and consumer behavior, enabling informed decision-making."
+                containerId="w-node-_83c401e8-0d61-cacd-b893-51c94ad88d41-d34f12fc"
+                layoutId="w-node-_83c401e8-0d61-cacd-b893-51c94ad88d42-d34f12fc"
+                headingClassName="heading-8"
+              />
+              <BenefitItemCard
+                icon={{
+                  src: 'https://cdn.prod.website-files.com/665075d333d845b30969fece/665075d333d845b3096a0075_Data%20Icon%20Five.webp',
+                  width: 51,
+                  height: 51,
+                  alt: '',
+                }}
+                heading="Informed Choices"
+                description="Access real-time data through Clymin for swift responses to market changes, ensuring your business remains agile and competitive."
+                containerId="w-node-_83c401e8-0d61-cacd-b893-51c94ad88d4b-d34f12fc"
+                layoutId="w-node-_83c401e8-0d61-cacd-b893-51c94ad88d4c-d34f12fc"
+                headingClassName="heading-9"
+              />
+              <BenefitItemCard
+                icon={{
+                  src: 'https://cdn.prod.website-files.com/665075d333d845b30969fece/665075d333d845b3096a008a_Data%20Icon%20Four.webp',
+                  width: 51,
+                  alt: '',
+                }}
+                heading="Feedback Analysis"
+                description="Scrape user reviews to enhance products and services based on genuine customer feedback, driving innovation and customer satisfaction."
+                containerId="w-node-_83c401e8-0d61-cacd-b893-51c94ad88d55-d34f12fc"
+                layoutId="w-node-_83c401e8-0d61-cacd-b893-51c94ad88d56-d34f12fc"
+                headingClassName="heading-10"
+              />
+              <BenefitItemCard
+                icon={{
+                  src: 'https://cdn.prod.website-files.com/665075d333d845b30969fece/665075d333d845b3096a0087_Data%20icon%20Three.webp',
+                  width: 51,
+                  alt: '',
+                }}
+                heading="Flexible Analytics"
+                description="Clymin offers customizable data extraction solutions tailored to your specific needs, providing flexibility and scalability to adapt as your business grows."
+                containerId="w-node-_83c401e8-0d61-cacd-b893-51c94ad88d5f-d34f12fc"
+                layoutId="w-node-_83c401e8-0d61-cacd-b893-51c94ad88d60-d34f12fc"
+                headingClassName="heading-11"
+              />
+              <BenefitItemCard
+                icon={{
+                  src: 'https://cdn.prod.website-files.com/665075d333d845b30969fece/665075d333d845b3096a0086_Data%20Icon%20Two.webp',
+                  width: 51,
+                  alt: 'web scraping and web crawling',
+                }}
+                heading="Competitive Edge"
+                description="Monitor competitors' apps using Clymin to gather insights that inform strategic adjustments, ensuring you stay ahead in the market."
+                containerId="w-node-_83c401e8-0d61-cacd-b893-51c94ad88d69-d34f12fc"
+                layoutId="w-node-_83c401e8-0d61-cacd-b893-51c94ad88d6a-d34f12fc"
+                headingClassName="heading-12"
+                strongClassName="pos1"
+              />
+              <BenefitItemCard
+                icon={{
+                  src: 'https://cdn.prod.website-files.com/665075d333d845b30969fece/665075d333d845b3096a0086_Data%20Icon%20Two.webp',
+                  width: 51,
+                  alt: 'web scraping and web crawling',
+                }}
+                heading="Cost Efficiency"
+                description="Automate data extraction with Clymin, significantly reducing manpower costs while boosting productivity, allowing your team to focus on core tasks."
+                containerId="w-node-_83c401e8-0d61-cacd-b893-51c94ad88d73-d34f12fc"
+                layoutId="w-node-_83c401e8-0d61-cacd-b893-51c94ad88d74-d34f12fc"
+                headingClassName="heading-12"
+                strongClassName="pos1"
+              />
             </div>
           </div>
         </div>
       </section>
 
       {/* Don't let your competitors get ahead */}
-      <section className="home-one-project-box">
-        <div className="w-layout-blockcontainer home-one-project-left-section align-center w-container">
-          <h2 className="home-one-project-heading text-center">Don't let your competitors get ahead</h2>
-          <p className="home-project-paragraph text-center">Start your journey with Clymin today and harness the power of real-time data and AI-driven insights!</p>
-          <Link to="/contact-us" className="button-font button-width w-button">Contact Us</Link>
-        </div>
-        <div className="home-one-project-right-section">
-          <img
-            src="https://cdn.prod.website-files.com/665075d333d845b30969fece/667aad2a7fbf92ade78d1206_665075d333d845b30969ff7f_Project%20Image%202-min.png"
-            sizes="(max-width: 479px) 100vw, 446px"
-            width="446"
-            height="400"
-            alt="A cell phone with a number of messages on the screen"
-            srcSet="https://cdn.prod.website-files.com/665075d333d845b30969fece/667aad2a7fbf92ade78d1206_665075d333d845b30969ff7f_Project%20Image%202-min-p-500.png 500w, https://cdn.prod.website-files.com/665075d333d845b30969fece/667aad2a7fbf92ade78d1206_665075d333d845b30969ff7f_Project%20Image%202-min-p-800.png 800w, https://cdn.prod.website-files.com/665075d333d845b30969fece/667aad2a7fbf92ade78d1206_665075d333d845b30969ff7f_Project%20Image%202-min-p-1080.png 1080w, https://cdn.prod.website-files.com/665075d333d845b30969fece/667aad2a7fbf92ade78d1206_665075d333d845b30969ff7f_Project%20Image%202-min.png 1689w"
-            className="auto-fit startech-home-one-project-image"
-          />
-        </div>
-      </section>
+      <ProjectSection />
 
       {/* How It Works Section */}
       <section id="How-it-works" className="home-three-dream-section padding-twenty">
@@ -815,7 +797,7 @@ export const MobileAppScrapingServices = () => {
       </section>
 
       {/* Testimonials Section */}
-      <TestimonialsSection />
+      <TestimonialsSection label="Testimonials" heading="Trusted by Industry Leaders" />
 
       {/* FAQ Section */}
       <section className="faq-section-2">

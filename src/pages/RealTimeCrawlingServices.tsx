@@ -3,6 +3,7 @@ import { Header } from '@/components/Header'
 import { Footer } from '@/components/Footer'
 import { BusinessSection } from '@/components/BusinessSection'
 import { TestimonialsSection } from '@/components/TestimonialsSection'
+import { BenefitItemCard } from '@/components/BenefitItemCard'
 import '../components/BusinessSection/BusinessSection.css'
 import './RealTimeCrawlingServices.css'
 
@@ -192,33 +193,47 @@ export const RealTimeCrawlingServices = () => {
               Our real-time crawling services provide your business with the most current data, keeping you at the forefront in an ever-changing market.
             </p>
             <div className="w-layout-grid career-grid">
-              <div id="w-node-c1001dd3-a412-05f0-6b7c-ea31324138c3-0969ff3c" className="w-layout-blockcontainer career-data-grid-box w-container">
-                <div className="career-data-grid-heading">
-                  <img src="https://cdn.prod.website-files.com/665075d333d845b30969fece/665075d333d845b3096a0085_Data%20Icon%20Six.webp" loading="lazy" width="51" alt="" />
-                  <h6 className="heading">
-                    <strong>Access Latest Information</strong>
-                  </h6>
-                </div>
-                <div className="text-block-5">Stay ahead with up-to-the-minute data, essential for informed decision-making.</div>
-              </div>
-              <div id="w-node-c1001dd3-a412-05f0-6b7c-ea31324138cd-0969ff3c" className="w-layout-blockcontainer career-data-grid-box w-container">
-                <div className="career-data-grid-heading">
-                  <img src="https://cdn.prod.website-files.com/665075d333d845b30969fece/665075d333d845b3096a0075_Data%20Icon%20Five.webp" loading="lazy" width="51" height="51" alt="" />
-                  <h6 className="heading">
-                    <strong>Adapt to Market Changes</strong>
-                  </h6>
-                </div>
-                <div className="text-block-5">Adapt to new trends and customer demands promptly with real-time insights.</div>
-              </div>
-              <div id="w-node-c1001dd3-a412-05f0-6b7c-ea31324138d7-0969ff3c" className="w-layout-blockcontainer career-data-grid-box w-container">
-                <div className="career-data-grid-heading">
-                  <img src="https://cdn.prod.website-files.com/665075d333d845b30969fece/665075d333d845b3096a008a_Data%20Icon%20Four.webp" loading="lazy" width="51" height="51" alt="" />
-                  <h6 className="heading">
-                    <strong>Respond to Market Shifts</strong>
-                  </h6>
-                </div>
-                <div className="text-block-5">Gain precise and reliable data through state-of-the-art AI algorithms.</div>
-              </div>
+              <BenefitItemCard
+                icon={{
+                  src: 'https://cdn.prod.website-files.com/665075d333d845b30969fece/665075d333d845b3096a0085_Data%20Icon%20Six.webp',
+                  width: 51,
+                  alt: '',
+                }}
+                heading="Access Latest Information"
+                description="Stay ahead with up-to-the-minute data, essential for informed decision-making."
+                variant="career-grid"
+                containerId="w-node-c1001dd3-a412-05f0-6b7c-ea31324138c3-0969ff3c"
+                headingTag="h6"
+                strongClassName=""
+              />
+              <BenefitItemCard
+                icon={{
+                  src: 'https://cdn.prod.website-files.com/665075d333d845b30969fece/665075d333d845b3096a0075_Data%20Icon%20Five.webp',
+                  width: 51,
+                  height: 51,
+                  alt: '',
+                }}
+                heading="Adapt to Market Changes"
+                description="Adapt to new trends and customer demands promptly with real-time insights."
+                variant="career-grid"
+                containerId="w-node-c1001dd3-a412-05f0-6b7c-ea31324138cd-0969ff3c"
+                headingTag="h6"
+                strongClassName=""
+              />
+              <BenefitItemCard
+                icon={{
+                  src: 'https://cdn.prod.website-files.com/665075d333d845b30969fece/665075d333d845b3096a008a_Data%20Icon%20Four.webp',
+                  width: 51,
+                  height: 51,
+                  alt: '',
+                }}
+                heading="Respond to Market Shifts"
+                description="Gain precise and reliable data through state-of-the-art AI algorithms."
+                variant="career-grid"
+                containerId="w-node-c1001dd3-a412-05f0-6b7c-ea31324138d7-0969ff3c"
+                headingTag="h6"
+                strongClassName=""
+              />
             </div>
           </div>
         </div>
@@ -329,7 +344,7 @@ export const RealTimeCrawlingServices = () => {
       </section>
 
       {/* Testimonials Section */}
-      <TestimonialsSection />
+      <TestimonialsSection label="Testimonials" heading="Trusted by Industry Leaders" />
 
       {/* Business Section */}
       <BusinessSection onContactClick={handleContactClick} />
