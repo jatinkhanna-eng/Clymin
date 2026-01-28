@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import { TestimonialCard } from '../TestimonialCard'
 import './TestimonialsSection.css'
 
@@ -18,6 +18,77 @@ export const TestimonialsSection = ({
   heading,
   testimonials,
 }: TestimonialsSectionProps) => {
+  const sectionRef = useRef<HTMLElement>(null)
+  const cardSectionRef = useRef<HTMLDivElement>(null)
+  const [translateX, setTranslateX] = useState(0)
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (!sectionRef.current || !cardSectionRef.current) return
+
+      const section = sectionRef.current
+      const rect = section.getBoundingClientRect()
+      const windowHeight = window.innerHeight
+      const scrollY = window.scrollY || window.pageYOffset
+
+      // Get section's position relative to document
+      const sectionTop = rect.top + scrollY
+      const sectionHeight = rect.height
+      const sectionBottom = sectionTop + sectionHeight
+
+      // Current scroll position
+      const currentScroll = scrollY + windowHeight
+
+      // Only animate when section is approaching or in viewport
+      // Start animation when section is 200px before entering viewport
+      const animationStart = sectionTop - windowHeight + 200
+      const animationEnd = sectionBottom
+
+      // Calculate scroll progress (0 to 1)
+      // Progress increases as user scrolls down through the section
+      const scrollProgress = Math.max(
+        0,
+        Math.min(1, (currentScroll - animationStart) / (animationEnd - animationStart))
+      )
+
+      // Calculate total width of cards to determine max translation
+      const cardSection = cardSectionRef.current
+      const totalWidth = cardSection.scrollWidth
+      const containerWidth = cardSection.clientWidth || window.innerWidth
+      const maxTranslate = Math.min(0, -(totalWidth - containerWidth))
+
+      // Map scroll progress to translateX
+      // Start from 0 and move to maxTranslate (left) as user scrolls down
+      // When scrolling up, it moves back to the right
+      const newTranslateX = scrollProgress * maxTranslate
+
+      setTranslateX(newTranslateX)
+    }
+
+    // Initial calculation
+    handleScroll()
+
+    // Add scroll event listener with throttling
+    let ticking = false
+    const onScroll = () => {
+      if (!ticking) {
+        window.requestAnimationFrame(() => {
+          handleScroll()
+          ticking = false
+        })
+        ticking = true
+      }
+    }
+
+    window.addEventListener('scroll', onScroll, { passive: true })
+    window.addEventListener('resize', handleScroll, { passive: true })
+
+    return () => {
+      window.removeEventListener('scroll', onScroll)
+      window.removeEventListener('resize', handleScroll)
+    }
+  }, [testimonials])
+
   // Default testimonials data
   const defaultTestimonials = [
     {
@@ -91,7 +162,11 @@ export const TestimonialsSection = ({
   ]
 
   return (
-    <section data-w-id="9d18acba-6173-9685-d838-871c09cfa2e4" className="about-three-testimonoal-section-two feature-testimonial-section">
+    <section
+      ref={sectionRef}
+      data-w-id="9d18acba-6173-9685-d838-871c09cfa2e4"
+      className="about-three-testimonoal-section-two feature-testimonial-section"
+    >
       <div className="about-three-container about-three-testimonial-container">
         <div className="home-one-hero-text-one about-three-hero-text-one-box">
           <div className="home-one-hero-line about-two-applycation-line"></div>
@@ -102,10 +177,11 @@ export const TestimonialsSection = ({
         </h2>
       </div>
       <div
+        ref={cardSectionRef}
         className="about-three-testimonial-card-section"
         style={{
           willChange: 'transform',
-          transform: 'translate3d(-949.408px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)',
+          transform: `translate3d(${translateX}px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)`,
           transformStyle: 'preserve-3d',
         }}
       >

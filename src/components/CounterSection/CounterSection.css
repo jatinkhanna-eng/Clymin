@@ -18,13 +18,14 @@
 
 .main-box {
   background-color: #0a2023;
-  border-top: 1px solid #f4f5f6;
+  border-top: 0;
   padding: 60px 90px;
 }
 
 @media screen and (min-width: 1440px) {
   .main-box {
     border: 1px solid var(--light-green);
+    border-top: 0;
     -webkit-text-stroke-color: var(--black);
   }
 }
