@@ -14,6 +14,7 @@ export const Hero = ({ onContactClick, onFeaturesClick }: HeroProps) => {
           src="https://cdn.prod.website-files.com/665075d333d845b30969fece/665075d333d845b30969ff9e_Home%20Tow%20Hero%20Vector.webp"
           alt=""
           width="134.5"
+          style={{height:"100px"}}
           height="98"
           className="home-tow-hero-vector autofit-image image-27"
           

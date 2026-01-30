@@ -23,6 +23,7 @@ export interface BenefitItemCardProps {
   borderClassName?: string
   innerBoxClassName?: string
   headingWrapperClassName?: string
+  layout?: 'row' | 'column'
 }
 
 export const BenefitItemCard = ({
@@ -41,6 +42,7 @@ export const BenefitItemCard = ({
   borderClassName,
   innerBoxClassName,
   headingWrapperClassName,
+  layout
 }: BenefitItemCardProps) => {
   const HeadingTag = headingTag
 
@@ -49,32 +51,32 @@ export const BenefitItemCard = ({
     variant === 'manager-grid'
       ? 'home-one-manager-grid-block relative overflow style-none'
       : variant === 'career-grid'
-      ? 'w-layout-blockcontainer career-data-grid-box w-container'
-      : variant === 'industries-grid'
-      ? 'home-three-future-grid-item'
-      : 'w-layout-blockcontainer container-3 w-container'
+        ? 'w-layout-blockcontainer career-data-grid-box w-container'
+        : variant === 'industries-grid'
+          ? 'home-three-future-grid-item'
+          : 'w-layout-blockcontainer container-3 w-container'
   const defaultLayoutClassName =
     variant === 'manager-grid'
       ? 'home-one-manager-grid-inner-box-one'
       : variant === 'career-grid'
-      ? 'career-data-grid-heading'
-      : variant === 'industries-grid'
-      ? 'about-one-card-inner-one'
-      : 'w-layout-layout quick-stack-2 wf-layout-layout'
+        ? 'career-data-grid-heading'
+        : variant === 'industries-grid'
+          ? 'about-one-card-inner-one'
+          : 'w-layout-layout quick-stack-2 wf-layout-layout'
   const defaultHeadingClassName =
     variant === 'manager-grid'
       ? 'home-one-manager-grid-text-heading-two'
       : variant === 'career-grid'
-      ? 'heading'
-      : variant === 'industries-grid'
-      ? 'about-one-manage-card-heading'
-      : 'heading-8'
+        ? 'heading'
+        : variant === 'industries-grid'
+          ? 'about-one-manage-card-heading'
+          : 'heading-8'
   const defaultDescriptionClassName =
     variant === 'manager-grid'
       ? 'text-block-6 margin-grid-paragraph'
       : variant === 'industries-grid'
-      ? 'career-grid-paragraph'
-      : 'text-block-5'
+        ? 'career-grid-paragraph'
+        : 'text-block-5'
 
   if (variant === 'manager-grid') {
     return (
@@ -157,7 +159,12 @@ export const BenefitItemCard = ({
   // Default variant (original structure)
   return (
     <div id={containerId} className={containerClassName || defaultContainerClassName}>
-      <div id={layoutId} className={layoutClassName || defaultLayoutClassName}>
+      <div id={layoutId} className={layoutClassName || defaultLayoutClassName} style={{
+        display: layout === 'row' ? 'flex' : undefined,
+        alignItems: layout === 'row' ? 'center' : undefined,
+        gap: layout === 'row' ? '12px' : undefined,
+        justifyContent: layout === 'row' ? 'start' : undefined
+      }}>
         <div className="w-layout-cell">
           <img
             src={icon.src}

@@ -45,7 +45,7 @@ export const RealTimeCrawlingServices = () => {
               sizes="(max-width: 479px) 100vw, 444px"
               alt="A computer and a tablet displaying a product review"
               srcSet="https://cdn.prod.website-files.com/665075d333d845b30969fece/667525212f411daae929ac69_realtimecrawl-dataextr%20(1)-min-p-500.png 500w, https://cdn.prod.website-files.com/665075d333d845b30969fece/667525212f411daae929ac69_realtimecrawl-dataextr%20(1)-min-p-800.png 800w, https://cdn.prod.website-files.com/665075d333d845b30969fece/667525212f411daae929ac69_realtimecrawl-dataextr%20(1)-min-p-1080.png 1080w, https://cdn.prod.website-files.com/665075d333d845b30969fece/667525212f411daae929ac69_realtimecrawl-dataextr%20(1)-min-p-1600.png 1600w, https://cdn.prod.website-files.com/665075d333d845b30969fece/667525212f411daae929ac69_realtimecrawl-dataextr%20(1)-min-p-2000.png 2000w, https://cdn.prod.website-files.com/665075d333d845b30969fece/667525212f411daae929ac69_realtimecrawl-dataextr%20(1)-min-p-2600.png 2600w, https://cdn.prod.website-files.com/665075d333d845b30969fece/667525212f411daae929ac69_realtimecrawl-dataextr%20(1)-min-p-3200.png 3200w, https://cdn.prod.website-files.com/665075d333d845b30969fece/667525212f411daae929ac69_realtimecrawl-dataextr%20(1)-min.png 3807w"
-              className="image-28"
+              // className="image-28"
             />
           </div>
         </div>
@@ -301,40 +301,42 @@ export const RealTimeCrawlingServices = () => {
             </div>
           </div>
           <div className="home-one-lead-box-one home-one-lead-box-tow padding-twenty margin-forty">
-            <img
-              src="https://cdn.prod.website-files.com/665075d333d845b30969fece/665075d333d845b30969ff77_Lead%20Sattic%20One.webp"
-              alt=""
-              width="263"
-              height="190"
-              className="home-one-lead-static-image-one"
-            />
             <div className="home-one-manage-second-box-left-container width-hundred-persent">
-              <div className="home-one-lead-box-bold-text text-width">
+              <img
+                src="https://cdn.prod.website-files.com/665075d333d845b30969fece/665075d333d845b30969ff77_Lead%20Sattic%20One.webp"
+                alt=""
+                width="263"
+                height="190"
+                className="home-one-lead-static-image-one"
+              />
+
+              <div className="home-one-lead-box-bold-text text-width" style={{ whiteSpace: "nowrap" }}>
                 <strong>Custom Data Formats</strong>
               </div>
-            </div>
-            <div className="home-one-second-box-rigght-container width-hundred-persent">
-              <p className="home-one-lead-box-paragraph">
-                Receive your extracted data in the format that seamlessly integrates into your existing systems, making it easy to analyze and utilize.
-              </p>
-              <a href="#" className="home-one-lead-box-arrow w-inline-block">
-                <div className="lead-button lead-button-two">
-                  <img
-                    src="https://cdn.prod.website-files.com/665075d333d845b30969fece/665075d333d845b3096a0094_LeadArrow.png"
-                    alt="White Arrow"
-                    width="17"
-                    height="16"
-                    className="auto-fit arrow-icon home-one-arrow-hover"
-                  />
-                  <img
-                    src="https://cdn.prod.website-files.com/665075d333d845b30969fece/665075d333d845b3096a0095_Lead%20Arrow%20Black.png"
-                    alt="Link"
-                    width="17"
-                    height="16"
-                    className="auto-fit arrow-icon home-one-arrow-out"
-                  />
-                </div>
-              </a>
+
+              <div className="home-one-second-box-rigght-container width-hundred-persent">
+                <p className="home-one-lead-box-paragraph">
+                 Receive your extracted data in the format that seamlessly integrates into your existing systems, making it easy to analyze and utilize.
+                </p>
+                <a href="#" className="home-one-lead-box-arrow w-inline-block">
+                  <div className="lead-button lead-button-two">
+                    <img
+                      src="https://cdn.prod.website-files.com/665075d333d845b30969fece/665075d333d845b3096a0094_LeadArrow.png"
+                      alt="White Arrow"
+                      width="17"
+                      height="16"
+                      className="auto-fit arrow-icon home-one-arrow-hover"
+                    />
+                    <img
+                      src="https://cdn.prod.website-files.com/665075d333d845b30969fece/665075d333d845b3096a0095_Lead%20Arrow%20Black.png"
+                      alt="Link"
+                      width="17"
+                      height="16"
+                      className="auto-fit arrow-icon home-one-arrow-out"
+                    />
+                  </div>
+                </a>
+              </div>
             </div>
           </div>
           <Link to="/contact-us" className="button-font w-button">

@@ -1,6 +1,8 @@
 import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import './Header.css'
+import { RiArrowDropDownLine } from 'react-icons/ri'
+import { HiChevronDown, HiChevronRight } from 'react-icons/hi'
 
 export interface HeaderProps {
   onContactClick?: () => void
@@ -9,6 +11,24 @@ export interface HeaderProps {
 export const Header = ({ onContactClick }: HeaderProps) => {
   const [isWhatWeDoOpen, setIsWhatWeDoOpen] = useState(false)
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
+  const [openedByClick, setOpenedByClick] = useState(false)
+
+
+  useEffect(() => {
+    const handleClickOutside = () => {
+      setIsWhatWeDoOpen(false)
+      setOpenedByClick(false)
+    }
+
+    if (isWhatWeDoOpen) {
+      document.addEventListener('click', handleClickOutside)
+    }
+
+    return () => {
+      document.removeEventListener('click', handleClickOutside)
+    }
+  }, [isWhatWeDoOpen])
+
 
   // Close desktop dropdown on small screens
   useEffect(() => {
@@ -49,29 +69,46 @@ export const Header = ({ onContactClick }: HeaderProps) => {
               <div className="nav-menu">
                 <div
                   className={`header__dropdown w-dropdown ${isWhatWeDoOpen ? 'w--open' : ''}`}
-                  onMouseEnter={() => setIsWhatWeDoOpen(true)}
-                  onMouseLeave={() => setIsWhatWeDoOpen(false)}
+                  onMouseEnter={() => {
+                    if (!openedByClick) setIsWhatWeDoOpen(true)
+                  }}
+                  onMouseLeave={() => {
+                    if (!openedByClick) setIsWhatWeDoOpen(false)
+                  }}
                 >
                   <div
+                    // className="header__dropdown-toggle dropdown-toggle-6 w-dropdown-toggle"
+                    // id="w-dropdown-toggle-2"
+                    // aria-controls="w-dropdown-list-2"
+                    // aria-haspopup="menu"
+                    // aria-expanded={isWhatWeDoOpen}
+                    // role="button"
+                    // tabIndex={0}
+                    // onClick={() => setIsWhatWeDoOpen(!isWhatWeDoOpen)}
+
                     className="header__dropdown-toggle dropdown-toggle-6 w-dropdown-toggle"
-                    id="w-dropdown-toggle-2"
-                    aria-controls="w-dropdown-list-2"
-                    aria-haspopup="menu"
                     aria-expanded={isWhatWeDoOpen}
                     role="button"
                     tabIndex={0}
-                    onClick={() => setIsWhatWeDoOpen(!isWhatWeDoOpen)}
+                    onClick={(e) => {
+                      e.stopPropagation()
+                      setIsWhatWeDoOpen((prev) => !prev)
+                      setOpenedByClick((prev) => !prev)
+                    }}
                   >
                     <div className="header__dropdown-text text-block-30">
                       <strong>What we do</strong>
                     </div>
-                    <div className="header__dropdown-icon icon-9 w-icon-dropdown-toggle" aria-hidden="true"></div>
+                    {/* <div className="header__dropdown-icon icon-9 w-icon-dropdown-toggle" aria-hidden="true"></div> */}
+                    <HiChevronDown className="header__dropdown-icon w-icon-dropdown-toggle" aria-hidden="true" />
+                    {/* <div style={{color:"white"}} className='header__dropdown-icon' aria-hidden="true"><RiArrowDropDownLine size={32} /></div> */}
                   </div>
                   {isWhatWeDoOpen && (
                     <nav
                       className={`header__dropdown-list w-dropdown-list ${isWhatWeDoOpen ? 'w--open' : ''}`}
-                      id="w-dropdown-list-2"
-                      aria-labelledby="w-dropdown-toggle-2"
+                      // id="w-dropdown-list-2"
+                      // aria-labelledby="w-dropdown-toggle-2"
+                      onClick={(e) => e.stopPropagation()}
                     >
                       <div
                         id="w-node-_6d0017d1-5792-311e-9005-aacdf2f906a3-1dade6d4"
@@ -226,7 +263,14 @@ export const Header = ({ onContactClick }: HeaderProps) => {
                         aria-expanded={isWhatWeDoOpen}
                       >
                         <strong>What we do</strong>
-                        <span className="mobile-menu-arrow">{isWhatWeDoOpen ? '▼' : '▶'}</span>
+                        {/* <span className="mobile-menu-arrow">{isWhatWeDoOpen ? '▼' : '▶'}</span> */}
+                        <span className="mobile-menu-arrow">
+                          {isWhatWeDoOpen ? (
+                            <HiChevronDown aria-hidden="true" />
+                          ) : (
+                            <HiChevronRight aria-hidden="true" />
+                          )}
+                        </span>
                       </button>
                       {isWhatWeDoOpen && (
                         <div className="mobile-menu-dropdown-content">

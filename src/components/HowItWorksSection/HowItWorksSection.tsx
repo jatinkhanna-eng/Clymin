@@ -28,12 +28,24 @@ export const HowItWorksSection = () => {
     <section id="How-it-works" className="home-three-dream-section padding-twenty">
       <div className="home-three-dream-left"></div>
       <section className="home-three-container home-three-dream-container">
-        <SectionHeader
+        {/* <SectionHeader
           label="How It Works"
           heading="your path to data-driven growth"
           containerClassName="home-three-dream-first-text"
           headingClassName="home-three-second-heading home-three-header-tow-small"
-        />
+        /> */}
+
+        <div className="services-two-container career-data-container" style={{ paddingTop: "20px" }}>
+          <div className="home-one-hero-text-one career-hero-text-box-one">
+            <div style={{color:"white"}}  className="home-one-hero-line home-one-management-line career-data-one-line"></div>
+            <div style={{color:"white"}} className="home-one-hero-text-bold-two home-one-management-text-one career-data-one-text">
+              How It Works
+            </div>
+          </div>
+          <h2 style={{color:"white"}}  className="career-data-heading">
+            your path to data-driven growth
+          </h2>
+        </div>
         <div className="home-three-dream-scroll-section">
           <img
             src="https://cdn.prod.website-files.com/665075d333d845b30969fece/6678262c7fc5271a7626e231_Group%201171275348-min.png"

@@ -174,7 +174,9 @@ html.w-mod-touch * {
   color: #0f0f0f;
   max-width: 423px;
   padding-top: 20px;
-  font-family: Be Vietnam Pro, sans-serif;
+  font-family:
+    Be Vietnam Pro,
+    sans-serif;
   font-size: 1.375rem;
   font-weight: 600;
   line-height: 2rem;
@@ -290,7 +292,6 @@ html.w-mod-touch * {
   }
 }
 
-
 .image-53 {
   vertical-align: sub;
   margin-right: 0;
@@ -317,7 +318,9 @@ html.w-mod-touch * {
   font-weight: 500;
   line-height: 1rem;
   text-decoration: none;
-  transition: color 0.4s, background-color 0.4s;
+  transition:
+    color 0.4s,
+    background-color 0.4s;
   display: flex;
 }
 
@@ -328,7 +331,7 @@ html.w-mod-touch * {
   background-color: var(--soft-peach);
   grid-template-rows: auto;
   grid-template-columns: 1fr 1fr;
-  grid-auto-rows: .25fr;
+  grid-auto-rows: 0.25fr;
   grid-auto-columns: auto;
   place-content: start space-between;
   place-items: start stretch;
@@ -566,14 +569,18 @@ html.w-mod-touch * {
 }
 
 .home-one-hero-text-box.home-one-text-style {
-  font-family: Be Vietnam Pro, sans-serif;
+  font-family:
+    Be Vietnam Pro,
+    sans-serif;
 }
 
 .home-one-hero-text-box.home-one-management-text-one.home-one-text-style {
   flex: 0 auto;
   order: 0;
   align-self: auto;
-  font-family: Be Vietnam Pro, sans-serif;
+  font-family:
+    Be Vietnam Pro,
+    sans-serif;
 }
 
 .bold-text-61 {
@@ -998,7 +1005,9 @@ html.w-mod-touch * {
   max-width: 241px;
   height: 55.9896px;
   padding-top: 0;
-  font-family: Be Vietnam Pro, sans-serif;
+  font-family:
+    Be Vietnam Pro,
+    sans-serif;
   font-size: 1.125rem;
   font-weight: 600;
   line-height: 1.75rem;
@@ -1016,7 +1025,9 @@ html.w-mod-touch * {
 @media screen and (min-width: 1440px) {
   .text-block-6.margin-grid-paragraph {
     color: var(--dim-grey);
-    font-family: Be Vietnam Pro, sans-serif;
+    font-family:
+      Be Vietnam Pro,
+      sans-serif;
   }
 }
 
@@ -1033,7 +1044,6 @@ html.w-mod-touch * {
     height: auto;
   }
 }
-
 
 .heading-8,
 .heading-9,
@@ -1309,7 +1319,9 @@ html.w-mod-touch * {
   font-size: 1rem;
   font-weight: 500;
   cursor: pointer;
-  transition: background-color 0.4s, color 0.4s;
+  transition:
+    background-color 0.4s,
+    color 0.4s;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1338,7 +1350,7 @@ html.w-mod-touch * {
   grid-row-gap: 60px;
   grid-template-columns: 1fr 1fr;
   align-items: center;
-  margin-top: 60px;
+  /* margin-top: 60px; */
   display: none;
 }
 
@@ -1453,7 +1465,9 @@ html.w-mod-touch * {
 .services-two-idea-content-head {
   color: #fff;
   margin-top: 0;
-  font-family: Be Vietnam Pro, sans-serif;
+  font-family:
+    Be Vietnam Pro,
+    sans-serif;
   font-size: 1.125rem;
   font-weight: 600;
   line-height: 1.75rem;
@@ -1663,7 +1677,9 @@ html.w-mod-touch * {
 .text-block-8 {
   color: var(--white);
   width: auto;
-  font-family: Be Vietnam Pro, sans-serif;
+  font-family:
+    Be Vietnam Pro,
+    sans-serif;
   font-size: 1rem;
   line-height: 1.75rem;
 }
@@ -1730,7 +1746,9 @@ html.w-mod-touch * {
 
 .text-block-9 {
   color: var(--white);
-  font-family: Be Vietnam Pro, sans-serif;
+  font-family:
+    Be Vietnam Pro,
+    sans-serif;
   font-size: 1rem;
   line-height: 1.75rem;
 }
@@ -1844,7 +1862,7 @@ html.w-mod-touch * {
 
 .about-three-business-line {
   background-color: #dadada;
-  width: 100px;
+  width: 100%;
   height: 2px;
   margin-bottom: 30px;
 }
@@ -1868,6 +1886,8 @@ html.w-mod-touch * {
 }
 
 .about-three-business-grid-paragraph {
+  margin: 0;
+  flex: 1;
   color: var(--dim-grey);
   font-family: 'Be Vietnam Pro', sans-serif;
   font-size: 1rem;
@@ -1878,8 +1898,6 @@ html.w-mod-touch * {
   font-weight: 600;
   color: var(--black);
 }
-
-
 
 .services-two-border {
   background-color: #dadada;
@@ -2074,7 +2092,7 @@ html.w-mod-touch * {
 
 .w-tabs:before,
 .w-tabs:after {
-  content: " ";
+  content: ' ';
   grid-area: 1 / 1 / 2 / 2;
   display: table;
 }

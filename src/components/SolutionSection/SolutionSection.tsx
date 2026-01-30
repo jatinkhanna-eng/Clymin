@@ -91,7 +91,7 @@ export const SolutionSection = () => {
 
       <div className="home-one-container startech-home-tow-solution-app-container">
         <div className="home-tow-app-container-one">
-          <h3 className="home-tow-app-container-one-heading home-tow-header-tow">
+          <h3 className="home-tow-app-container-one-heading home-tow-header-tow" style={{ textAlign: "left" }}>
             Tailored Scraping Solutions just for you
           </h3>
           <p className="home-one-app-container-one-patagraph home-tow-solution-card-one-paragraph">
@@ -152,7 +152,7 @@ export const SolutionSection = () => {
           />
         </div>
         <div className="home-tow-app-container-one new-colour">
-          <h3 className="home-tow-app-container-one-heading home-tow-header-tow">
+          <h3 className="home-tow-app-container-one-heading home-tow-header-tow" style={{ textAlign: "left" }}>
             <strong>seamless data integration with customer APIs</strong>
           </h3>
           <p className="home-one-app-container-one-patagraph home-tow-solution-card-one-paragraph">

@@ -256,19 +256,23 @@ export const DataCleansingTransformation = () => {
             </p>
             <div className="w-layout-grid grid-3">
               <BenefitItemCard
+                layout="row"
                 icon={{
                   src: 'https://cdn.prod.website-files.com/665075d333d845b30969fece/665075d333d845b3096a0085_Data%20Icon%20Six.webp',
                   width: 51,
+                  height: 51,
                   alt: '',
                 }}
-                heading="Improved Data Quality"
+                heading="Informed Choices"
                 description="Ensure your data is accurate, consistent, and reliable, eliminating errors and enhancing overall quality."
-                containerId="w-node-bf088039-b2c7-60bf-d31e-6203dd5e8131-0969ff32"
-                layoutId="w-node-bf088039-b2c7-60bf-d31e-6203dd5e8132-0969ff32"
-                headingTag="h6"
-                headingClassName="heading-5"
+                containerId="w-node-_83c401e8-0d61-cacd-b893-51c94ad88d4b-d34f12fc"
+                layoutId="w-node-_83c401e8-0d61-cacd-b893-51c94ad88d4c-d34f12fc"
+                headingClassName="heading-12"
+                strongClassName="pos1"
               />
+
               <BenefitItemCard
+                layout="row"
                 icon={{
                   src: 'https://cdn.prod.website-files.com/665075d333d845b30969fece/665075d333d845b3096a0075_Data%20Icon%20Five.webp',
                   width: 51,
@@ -277,79 +281,212 @@ export const DataCleansingTransformation = () => {
                 }}
                 heading="Enhanced Insights"
                 description="Gain deeper insights into your business operations, helping you make more informed decisions."
-                containerId="w-node-bf088039-b2c7-60bf-d31e-6203dd5e813b-0969ff32"
-                layoutId="w-node-bf088039-b2c7-60bf-d31e-6203dd5e813c-0969ff32"
-                headingTag="h6"
-                headingClassName="heading-6"
+                containerId="w-node-_83c401e8-0d61-cacd-b893-51c94ad88d4b-d34f12fc"
+                layoutId="w-node-_83c401e8-0d61-cacd-b893-51c94ad88d4c-d34f12fc"
+                headingClassName="heading-12"
+                strongClassName="pos1"
               />
+
               <BenefitItemCard
+                layout="row"
                 icon={{
                   src: 'https://cdn.prod.website-files.com/665075d333d845b30969fece/665075d333d845b3096a008a_Data%20Icon%20Four.webp',
                   width: 51,
+                  height: 51,
                   alt: '',
                 }}
                 heading="Minimized Errors"
                 description="Minimize data errors and inconsistencies, ensuring smooth and efficient operations."
-                containerId="w-node-bf088039-b2c7-60bf-d31e-6203dd5e8145-0969ff32"
-                layoutId="w-node-bf088039-b2c7-60bf-d31e-6203dd5e8146-0969ff32"
-                headingTag="h6"
-                headingClassName="heading-7"
+                containerId="w-node-_83c401e8-0d61-cacd-b893-51c94ad88d4b-d34f12fc"
+                layoutId="w-node-_83c401e8-0d61-cacd-b893-51c94ad88d4c-d34f12fc"
+                headingClassName="heading-12"
+                strongClassName="pos1"
               />
+
+
               <BenefitItemCard
+                layout="row"
                 icon={{
                   src: 'https://cdn.prod.website-files.com/665075d333d845b30969fece/665075d333d845b3096a0087_Data%20icon%20Three.webp',
                   width: 51,
+                  height: 51,
                   alt: '',
                 }}
                 heading="Streamlined Data Analysis"
                 description="Integrate and analyze data seamlessly, providing a unified view of your information."
-                containerId="w-node-bf088039-b2c7-60bf-d31e-6203dd5e814f-0969ff32"
-                layoutId="w-node-bf088039-b2c7-60bf-d31e-6203dd5e814f-0969ff32"
-                headingTag="h6"
-                headingClassName="heading-4 newp1"
+                containerId="w-node-_83c401e8-0d61-cacd-b893-51c94ad88d4b-d34f12fc"
+                layoutId="w-node-_83c401e8-0d61-cacd-b893-51c94ad88d4c-d34f12fc"
+                headingClassName="heading-12"
+                strongClassName="pos1"
               />
+
+
               <BenefitItemCard
+                layout="row"
                 icon={{
                   src: 'https://cdn.prod.website-files.com/665075d333d845b30969fece/665075d333d845b3096a0086_Data%20Icon%20Two.webp',
                   width: 51,
-                  alt: 'web scraping and web crawling',
+                  height: 51,
+                  alt: '',
                 }}
                 heading="Better Decision-Making"
                 description="Rely on accurate and reliable data to make strategic business decisions with confidence."
-                containerId="w-node-_7ed06034-fb0f-39dc-9571-91fc7ebaa1c5-0969ff32"
-                layoutId="w-node-_7ed06034-fb0f-39dc-9571-91fc7ebaa1c6-0969ff32"
-                headingTag="h6"
-                headingClassName="heading-4"
+                containerId="w-node-_83c401e8-0d61-cacd-b893-51c94ad88d4b-d34f12fc"
+                layoutId="w-node-_83c401e8-0d61-cacd-b893-51c94ad88d4c-d34f12fc"
+                headingClassName="heading-12"
+                strongClassName="pos1"
               />
+
+
+
+
+
               <BenefitItemCard
+                layout="row"
                 icon={{
                   src: 'https://cdn.prod.website-files.com/665075d333d845b30969fece/665075d333d845b3096a0087_Data%20icon%20Three.webp',
                   width: 51,
+                  height: 51,
                   alt: '',
                 }}
                 heading="Enhanced Efficiency"
                 description="Optimize operations with streamlined data management, cutting costs and boosting productivity"
-                containerId="w-node-_9f3ea25f-9534-e5b6-950f-cfebc72f788b-0969ff32"
-                layoutId="w-node-_9f3ea25f-9534-e5b6-950f-cfebc72f788c-0969ff32"
-                headingTag="h6"
-                headingClassName="heading-4 newp1"
+                containerId="w-node-_83c401e8-0d61-cacd-b893-51c94ad88d4b-d34f12fc"
+                layoutId="w-node-_83c401e8-0d61-cacd-b893-51c94ad88d4c-d34f12fc"
+                headingClassName="heading-12"
+                strongClassName="pos1"
               />
+
             </div>
           </div>
         </div>
       </section>
 
-      <section className="home-one-lead-section">
+
+
+
+  <section className="home-one-lead-section">
         <div className="home-one-container home-one-lead-container">
           <div className="home-one-hero-text-one home-one-lead-text-one">
             <div className="home-one-hero-line home-one-management-line home-one-lead-text-one-line"></div>
             <div className="home-one-hero-text-box home-one-management-text-one home-one-lead-text-one-style home-one-text-style">
-              <strong>Customized Services</strong>
+              CUSTOMIZED SERVICES
             </div>
           </div>
           <h2 className="home-one-lead-heading-text">
-            Application Solutions to Accelerate Your Business Growth
+            <strong>Application Solutions to Accelerate Your Business Growth</strong>
           </h2>
+         
+          <img
+            src="https://cdn.prod.website-files.com/665075d333d845b30969fece/665075d333d845b30969ff78_Lead%20Vectoe%20Image.webp"
+            alt=""
+            width="47"
+            height="80"
+            className="image-two"
+          />
+          <img
+            src="https://cdn.prod.website-files.com/665075d333d845b30969fece/665075d333d845b30969ff76_Lead%20Rectangle%20Image.webp"
+            width="27"
+            height="27"
+            alt=""
+            className="home-one-lead-qube"
+          />
+          <div className="home-one-lead-box-one home-one-lead-box-tow padding-twenty margin-forty">
+            <div className="home-one-manage-second-box-left-container width-hundred-persent">
+              <img
+                src="https://cdn.prod.website-files.com/665075d333d845b30969fece/665075d333d845b30969ff79_Lead%20Static%20Image%20Tow.webp"
+                alt=""
+                width="263"
+                height="190"
+                className="home-one-lead-static-image-one"
+              />
+
+              <div className="home-one-lead-box-bold-text text-width" style={{ whiteSpace: "nowrap" }}>
+                <strong> Big Data Integration Management </strong>
+              </div>
+
+              <div className="home-one-second-box-rigght-container width-hundred-persent">
+                <p className="home-one-lead-box-paragraph">
+                  From custom validation rules to specialized data integration processes, our services are designed to fit your specific business needs.
+                </p>
+                <a href="#" className="home-one-lead-box-arrow w-inline-block">
+                  <div className="lead-button lead-button-two">
+                    <img
+                      src="https://cdn.prod.website-files.com/665075d333d845b30969fece/665075d333d845b3096a0094_LeadArrow.png"
+                      alt="White Arrow"
+                      width="17"
+                      height="16"
+                      className="auto-fit arrow-icon home-one-arrow-hover"
+                    />
+                    <img
+                      src="https://cdn.prod.website-files.com/665075d333d845b30969fece/665075d333d845b3096a0095_Lead%20Arrow%20Black.png"
+                      alt="Link"
+                      width="17"
+                      height="16"
+                      className="auto-fit arrow-icon home-one-arrow-out"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="home-one-lead-box-one home-one-lead-box-tow padding-twenty margin-forty">
+            <div className="home-one-manage-second-box-left-container width-hundred-persent">
+              <img
+                src="https://cdn.prod.website-files.com/665075d333d845b30969fece/665075d333d845b30969ff77_Lead%20Sattic%20One.webp"
+                alt=""
+                width="263"
+                height="190"
+                className="home-one-lead-static-image-one"
+              />
+
+              <div className="home-one-lead-box-bold-text text-width" style={{ whiteSpace: "nowrap" }}>
+                <strong>Data Science Project Management</strong>
+              </div>
+
+              <div className="home-one-second-box-rigght-container width-hundred-persent">
+                <p className="home-one-lead-box-paragraph">
+                  From custom validation rules to specialized data integration processes, our services are designed to fit your specific business needs.
+                </p>
+                <a href="#" className="home-one-lead-box-arrow w-inline-block">
+                  <div className="lead-button lead-button-two">
+                    <img
+                      src="https://cdn.prod.website-files.com/665075d333d845b30969fece/665075d333d845b3096a0094_LeadArrow.png"
+                      alt="White Arrow"
+                      width="17"
+                      height="16"
+                      className="auto-fit arrow-icon home-one-arrow-hover"
+                    />
+                    <img
+                      src="https://cdn.prod.website-files.com/665075d333d845b30969fece/665075d333d845b3096a0095_Lead%20Arrow%20Black.png"
+                      alt="Link"
+                      width="17"
+                      height="16"
+                      className="auto-fit arrow-icon home-one-arrow-out"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <Link to="/contact-us" className="button-font w-button">
+            Contact Us
+          </Link>
+        </div>
+      </section>
+
+
+
+
+      {/* <section className="home-one-lead-section">
+        <div className="home-one-container home-one-lead-container">
+          <div className="home-one-hero-text-one home-one-lead-text-one">
+            <div className="home-one-hero-line home-one-management-line home-one-lead-text-one-line"></div>
+            <div className="home-one-hero-text-box home-one-management-text-one home-one-lead-text-one-style home-one-text-style">
+              CUSTOMIZED SERVICES
+            </div>
+          </div>
+          <h2 className="home-one-lead-heading-text">Application Solutions to Accelerate Your Business Growth</h2>
           <img
             src="https://cdn.prod.website-files.com/665075d333d845b30969fece/665075d333d845b30969ff78_Lead%20Vectoe%20Image.webp"
             alt=""
@@ -365,21 +502,21 @@ export const DataCleansingTransformation = () => {
             className="home-one-lead-qube"
           />
           <div className="home-one-lead-box-one home-one-manege-first-box padding-twenty">
-            <img
-              src="https://cdn.prod.website-files.com/665075d333d845b30969fece/665075d333d845b30969ff79_Lead%20Static%20Image%20Tow.webp"
-              alt=""
-              width="265"
-              height="159"
-              className="home-one-lead-box-tow-image-tow"
-            />
             <div className="home-one-manage-first-box-first-container width-hundred-persent">
-              <div className="home-one-lead-box-bold-text">Big Data Integration Management</div>
+              <img
+                src="https://cdn.prod.website-files.com/665075d333d845b30969fece/665075d333d845b30969ff79_Lead%20Static%20Image%20Tow.webp"
+                alt=""
+                width="265"
+                height="159"
+                className="home-one-lead-box-tow-image-tow"
+              />
+              <div className="home-one-lead-box-bold-text">
+                <strong>Big Data Integration Management</strong>
+              </div>
             </div>
             <div className="home-one-manage-first-box-right-container width-hundred-persent">
               <p className="home-one-lead-box-paragraph">
-                Our solutions provide customized data formats to seamlessly integrate into your
-                existing systems, enhancing efficiency and accuracy.
-              </p>
+                Our solutions provide customized data formats to seamlessly integrate into your existing systems, enhancing efficiency and accuracy.</p>
               <a href="#" className="home-one-lead-box-arrow w-inline-block">
                 <div className="lead-button lead-button-one">
                   <img
@@ -409,42 +546,42 @@ export const DataCleansingTransformation = () => {
                 height="190"
                 className="home-one-lead-static-image-one"
               />
-              <div className="home-one-lead-box-bold-text text-width">
-                Data Science Project Management
+
+              <div className="home-one-lead-box-bold-text text-width" style={{ whiteSpace: "nowrap" }}>
+                <strong>Data Science Project Management</strong>
               </div>
-            </div>
-            <div className="home-one-second-box-rigght-container width-hundred-persent">
-              <p className="home-one-lead-box-paragraph">
-                From custom validation rules to specialized data integration processes, our services
-                are designed to fit your specific business needs.
-              </p>
-              <a href="#" className="home-one-lead-box-arrow w-inline-block">
-                <div className="lead-button lead-button-two">
-                  <img
-                    src="https://cdn.prod.website-files.com/665075d333d845b30969fece/665075d333d845b3096a0094_LeadArrow.png"
-                    alt="White Arrow"
-                    width="17"
-                    height="16"
-                    className="auto-fit arrow-icon home-one-arrow-hover"
-                  />
-                  <img
-                    src="https://cdn.prod.website-files.com/665075d333d845b30969fece/665075d333d845b3096a0095_Lead%20Arrow%20Black.png"
-                    alt="Link"
-                    width="17"
-                    height="16"
-                    className="auto-fit arrow-icon home-one-arrow-out"
-                  />
-                </div>
-              </a>
+
+              <div className="home-one-second-box-rigght-container width-hundred-persent">
+                <p className="home-one-lead-box-paragraph">
+                  From custom validation rules to specialized data integration processes, our services are designed to fit your specific business needs. </p>
+                <a href="#" className="home-one-lead-box-arrow w-inline-block">
+                  <div className="lead-button lead-button-two">
+                    <img
+                      src="https://cdn.prod.website-files.com/665075d333d845b30969fece/665075d333d845b3096a0094_LeadArrow.png"
+                      alt="White Arrow"
+                      width="17"
+                      height="16"
+                      className="auto-fit arrow-icon home-one-arrow-hover"
+                    />
+                    <img
+                      src="https://cdn.prod.website-files.com/665075d333d845b30969fece/665075d333d845b3096a0095_Lead%20Arrow%20Black.png"
+                      alt="Link"
+                      width="17"
+                      height="16"
+                      className="auto-fit arrow-icon home-one-arrow-out"
+                    />
+                  </div>
+                </a>
+              </div>
             </div>
           </div>
           <Link to="/contact-us" className="button-font w-button">
             Contact Us
           </Link>
         </div>
-      </section>
+      </section> */}
 
-      <TestimonialsSection label="Testimonials" heading="Trusted by Industry Leaders" />
+      <TestimonialsSection label="Testimonials" heading="Words of Appreciation From Our Valued Clients" />
 
       <BusinessSection onContactClick={handleContactClick} />
       <Footer />

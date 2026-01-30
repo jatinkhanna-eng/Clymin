@@ -28,16 +28,21 @@ export const ApplicationSection = () => {
           </p>
           <p className="home-tow-applycation-paragraph-two">
             <span className="text-span">
-              <strong>Unparalleled Accuracy: </strong>Our advanced scraping technology ensures that
+              <div className="feature-list">
+                <div>
+                  <strong>Unparalleled Accuracy:</strong> Our advanced scraping technology ensures that
               you get precise and reliable data every time
-              <br />
-              <br />
-              <strong>Time-Saving Automation:</strong> Let us handle the heavy lifting. Automate
+                </div>
+                <div>
+                  <strong>Time-Saving Automation:</strong> Let us handle the heavy lifting. Automate
               routine data extraction tasks and saving hundreds of hours
-              <br />
-              <br />
-              <strong>Compliance and Security:</strong> We prioritize data security and legal
+                </div>
+
+                <div>
+                  <strong>Compliance and Security:</strong> We prioritize data security and legal
               Compliance, ensuring your data collection processes adhere to all regulations
+                </div>
+              </div>
             </span>
           </p>
           <div

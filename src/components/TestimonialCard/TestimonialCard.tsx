@@ -43,7 +43,7 @@ export const TestimonialCard = ({
             <div className={`text-block-nine ${nameClassName}`}>
               <strong>{name}</strong>
             </div>
-            <div className={`about-three-card-text-size ${roleClassName}`}>
+            <div className={`about-three-card-text-size ${roleClassName}`} style={{display:"flex"}}>
               <strong>{role}</strong>
             </div>
           </div>

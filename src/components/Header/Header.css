@@ -152,6 +152,8 @@
 .mobile-menu-arrow {
   font-size: 0.75rem;
   transition: transform 0.3s;
+  display: inline-flex;
+  align-items: center;
 }
 
 .mobile-menu-dropdown.open .mobile-menu-arrow {
@@ -537,6 +539,7 @@
 .header__dropdown-icon {
   width: 12px;
   height: 12px;
+  color:var(--white);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -547,53 +550,35 @@
   transform: rotate(180deg);
 }
 
-.header__dropdown-icon::before {
+/* .header__dropdown-icon::before {
   content: '▼';
   font-size: 0.75rem;
   color: currentColor;
-}
+} */
 
 .header__dropdown-text {
   color: #ffffff;
-  margin-right: 10px;
+  padding-right: 10px;
 }
 
 .header__dropdown-text strong {
   font-weight: 600;
 }
 
-.text-block-30,
-.icon-9 {
+.text-block-30{
   color: var(--white);
 }
 
 .w-icon-dropdown-toggle {
-  width: 1em;
-  height: 1em;
-  margin: auto 20px auto auto;
+  width: 1.5em;
+  height: 1.5em;
+  margin: auto;
   position: absolute;
   top: 0;
   bottom: 0;
   right: 0;
 }
 
-[class^='w-icon-'],
-[class*=' w-icon-'] {
-  speak: none;
-  font-variant: normal;
-  text-transform: none;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  font-style: normal;
-  font-weight: normal;
-  line-height: 1;
-  font-family: webflow-icons !important;
-}
-
-.w-icon-arrow-down:before,
-.w-icon-dropdown-toggle:before {
-  content: '\e003';
-}
 
 .header__dropdown-list {
   position: absolute;
@@ -882,7 +867,8 @@
 .header__menu-icon {
   width: 24px;
   height: 24px;
-  object-fit: contain;
+  flex-shrink: 0;
+  color: currentColor;
 }
 
 .nav-menu-two {
