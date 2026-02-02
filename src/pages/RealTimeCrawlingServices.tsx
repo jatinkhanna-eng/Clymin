@@ -343,10 +343,10 @@ export const RealTimeCrawlingServices = () => {
             Contact Us
           </Link>
         </div>
-      </section>
+      </section><br/>
 
       {/* Testimonials Section */}
-      <TestimonialsSection label="Testimonials" heading="Trusted by Industry Leaders" />
+      <TestimonialsSection label="Testimonials" heading="Words of Appreciation From Our Valued Clients" />
 
       {/* Business Section */}
       <BusinessSection onContactClick={handleContactClick} />

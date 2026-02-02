@@ -13,10 +13,12 @@ import { RealTimeCrawlingServices } from './pages/RealTimeCrawlingServices'
 import { ApiSolutions } from './pages/ApiSolutions'
 import { AutomatedMonitoring } from './pages/AutomatedMonitoring'
 import { WebAndAppScrapingAIServices } from './pages/WebAndAppScrapingAIServices'
+import ScrollToTop from './hooks/ScrollToTop'
 
 function App() {
   return (
     <BrowserRouter>
+        <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/contact-us" element={<ContactUs />} />
