@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import './Header.css'
-import { RiArrowDropDownLine } from 'react-icons/ri'
 import { HiChevronDown, HiChevronRight } from 'react-icons/hi'
 
 export interface HeaderProps {

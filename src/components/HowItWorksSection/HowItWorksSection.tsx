@@ -1,5 +1,4 @@
 import './HowItWorksSection.css'
-import { SectionHeader } from '@/components/SectionHeader'
 import { StepItem } from '@/components/StepItem'
 
 const steps = [

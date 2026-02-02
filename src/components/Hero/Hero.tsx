@@ -1,8 +1,13 @@
 import { Link } from 'react-router-dom'
 import './Hero.css'
 
+export interface HeroProps {
+  onContactClick?: () => void
+  onFeaturesClick?: () => void
+}
 
-export const Hero = () => {
+export const Hero = ({ onContactClick, onFeaturesClick }: HeroProps) => {
+
   return (
     <section className="home-one-hero-section-two home-tow-hero-section padding-twenty">
       <div className="home-one-container home-one-hero-container home-tow-hero-section-container home-tow-hero-container-style aligne-center align-gap">
@@ -22,12 +27,13 @@ export const Hero = () => {
           Get actionable, real-time data customized to your business. Our intelligent AI agents extract, cleanse, and transform data, empowering you to make smarter decisions.
         </p>
         <div className="home-one-hero-button-section home-one-hero-button-padding">
-          <Link to="/contact-us" className="button-font w-button">
+          <Link to="/contact-us" className="button-font w-button" onClick={onContactClick}>
             Contact Us
           </Link>
           <a
             href="/services/web-app-scraping-ai-services"
             className="home-one-all-button-two home-one-hero-second-button w-inline-block"
+            onClick={onFeaturesClick}
           >
             <div className="tartech-home-one-hero-second-button-container">
               <div className="home-tow-app-button-text">Know Features</div>
