@@ -1059,8 +1059,8 @@ html.w-mod-touch * {
 }
 
 .services-two-button-one {
-  border-radius: 60px;
-  padding: 15px 35px;
+  border-radius: 12px;
+  padding: 20px 50px;
   font-family: 'Be Vietnam Pro', sans-serif;
   font-size: 1rem;
   font-weight: 500;
@@ -1094,7 +1094,7 @@ html.w-mod-touch * {
   grid-row-gap: 60px;
   grid-template-columns: 1fr 1fr;
   align-items: center;
-  margin-top: 60px;
+  /* margin-top: 60px; */
   display: none;
 }
 

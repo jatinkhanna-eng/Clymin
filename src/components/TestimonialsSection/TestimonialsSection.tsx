@@ -155,7 +155,7 @@ export const TestimonialsSection = ({
         <>
           <strong>Clymin </strong>exceeded our expectations with their <strong>competitive intelligence</strong> services. Their web scraping tools
           offered detailed insights into competitors' strategies, enhancing our competitive strategy development by <strong>30%. </strong>The tools
-          are easy to use and provide valuable data
+          are easy to use and provide
         </>
       ),
     },

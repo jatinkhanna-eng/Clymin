@@ -22,8 +22,8 @@ html.w-mod-touch * {
 .services-container.services-two-container-pading {
   padding-top: 81px;
   padding-bottom: 0;
-  padding-left: 30px;
-  padding-right: 30px;
+  /* padding-left: 30px; */
+  /* padding-right: 30px; */
   position: relative;
 }
 
@@ -133,7 +133,7 @@ html.w-mod-touch * {
 
 .about-one-button {
   display: flex;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
 }
 
 .services-two-hero-bold-text {
@@ -968,7 +968,7 @@ html.w-mod-touch * {
 }
 
 .home-three-solution-left-heading-text.home-three-header-tow-small.home-three-bold-heading-three {
-  font-size: 1.25rem;
+  font-size: 1.875rem;
   line-height: 1.75rem;
 }
 

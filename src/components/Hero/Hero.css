@@ -135,8 +135,9 @@ h1 {
 }
 
 .home-tow-hero-span {
+  font-family: "Playfair Display, sans-serif";
   font-style: italic;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 /* Paragraph styles */

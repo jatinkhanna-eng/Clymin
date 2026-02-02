@@ -18,7 +18,7 @@ export const AutomatedMonitoring = () => {
   return (
     <>
       <Header onContactClick={handleContactClick} />
-      
+
       {/* Hero Section */}
       <section className="services-two-hero-section">
         <div className="services-container services-two-container-pading">
@@ -36,7 +36,12 @@ export const AutomatedMonitoring = () => {
             </div>
           </div>
           <h1 className="services-two-hero-heading">Outsmart Your Competition with Automated Data Monitoring</h1>
-          <div className="services-two-hero-second-section">
+          <div style={{
+            alignItems: "start",
+            maxWidth: "600px",
+            display: "flex",
+            flexDirection: "column"
+          }}>
             <div className="services-two-hero-text-left">
               <p className="services-two-hero-paragraph">
                 Don't just react to the market — anticipate it. Our Automated Monitoring tracks trends, brand mentions, and price fluctuations, empowering you to make accurate decisions.
@@ -74,7 +79,7 @@ export const AutomatedMonitoring = () => {
       </section>
 
       {/* Price Monitoring Section */}
-      <div className="w-layout-grid home-one-development-two-grid">
+      <div className="w-layout-grid home-one-development-two-grid" >
         <div className="home-one-develop-two-image-wrapper">
           <div className="home-one-development-one-image">
             <img
@@ -158,7 +163,7 @@ export const AutomatedMonitoring = () => {
       </div>
 
       {/* Brand Monitoring Section */}
-      <div className="w-layout-grid home-one-development-two-grid">
+      <div className="w-layout-grid home-one-development-two-grid" style={{ paddingTop: "100px" }}>
         <div id="w-node-a4b2abd7-d9ef-5c27-9c22-08dd08676acf-096a000e" className="home-one-development-two-wrapper">
           <div className="home-two-heading-wrapper">
             <div className="home-one-midle-container">
@@ -249,7 +254,7 @@ export const AutomatedMonitoring = () => {
       </div>
 
       {/* Benefits Section */}
-      <section className="career-data-section">
+      <section className="career-data-section" style={{ position: 'relative', zIndex: 1, paddingTop: '300px' }}>
         <div className="div-block-2">
           <div className="services-two-container career-data-container">
             <div className="home-one-hero-text-one career-hero-text-box-one">
@@ -265,18 +270,25 @@ export const AutomatedMonitoring = () => {
               Enhance your business operations with our state-of-the-art automated monitoring solutions. Stay ahead with real-time insights and proactive strategies.
             </p>
             <div className="w-layout-grid grid-3">
+
               <BenefitItemCard
+                layout="row"
                 icon={{
                   src: 'https://cdn.prod.website-files.com/665075d333d845b30969fece/665075d333d845b3096a0085_Data%20Icon%20Six.webp',
                   width: 51,
+                  height: 51,
                   alt: '',
                 }}
                 heading="Live Price Tracking"
                 description="Stay competitive with real-time price monitoring. Monitor competitor prices effortlessly and adjust your strategies instantly."
-                containerId="w-node-c7112956-a07e-57a3-a80f-504566538b65-096a000e"
-                layoutId="w-node-c7112956-a07e-57a3-a80f-504566538b66-096a000e"
+                containerId="w-node-_83c401e8-0d61-cacd-b893-51c94ad88d4b-d34f12fc"
+                layoutId="w-node-_83c401e8-0d61-cacd-b893-51c94ad88d4c-d34f12fc"
+                headingClassName="heading-12"
+                strongClassName="pos1"
               />
+
               <BenefitItemCard
+                layout="row"
                 icon={{
                   src: 'https://cdn.prod.website-files.com/665075d333d845b30969fece/665075d333d845b3096a0075_Data%20Icon%20Five.webp',
                   width: 51,
@@ -284,59 +296,80 @@ export const AutomatedMonitoring = () => {
                   alt: '',
                 }}
                 heading="Adaptive Pricing"
-                description="Optimize pricing strategies dynamically. Utilize automated insights to adjust prices based on market trends and demand."
-                containerId="w-node-c7112956-a07e-57a3-a80f-504566538b6f-096a000e"
-                layoutId="w-node-c7112956-a07e-57a3-a80f-504566538b70-096a000e"
-                headingClassName="heading-9"
+                description="Stay competitive with real-time price monitoring. Monitor competitor prices effortlessly and adjust your strategies instantly."
+                containerId="w-node-_83c401e8-0d61-cacd-b893-51c94ad88d4b-d34f12fc"
+                layoutId="w-node-_83c401e8-0d61-cacd-b893-51c94ad88d4c-d34f12fc"
+                headingClassName="heading-12"
+                strongClassName="pos1"
               />
+
               <BenefitItemCard
+                layout="row"
                 icon={{
                   src: 'https://cdn.prod.website-files.com/665075d333d845b30969fece/665075d333d845b3096a008a_Data%20Icon%20Four.webp',
                   width: 51,
+                  height: 51,
                   alt: '',
                 }}
                 heading="Brand Protection"
                 description="Protect and enhance your brand's reputation. Use automated monitoring to track online mentions and safeguard your brand's image."
-                containerId="w-node-c7112956-a07e-57a3-a80f-504566538b79-096a000e"
-                layoutId="w-node-c7112956-a07e-57a3-a80f-504566538b7a-096a000e"
-                headingClassName="heading-10"
+                containerId="w-node-_83c401e8-0d61-cacd-b893-51c94ad88d4b-d34f12fc"
+                layoutId="w-node-_83c401e8-0d61-cacd-b893-51c94ad88d4c-d34f12fc"
+                headingClassName="heading-12"
+                strongClassName="pos1"
               />
+
+
+
               <BenefitItemCard
+                layout="row"
                 icon={{
                   src: 'https://cdn.prod.website-files.com/665075d333d845b30969fece/665075d333d845b3096a0087_Data%20icon%20Three.webp',
                   width: 51,
+                  height: 51,
                   alt: '',
                 }}
                 heading="Market Agility"
                 description="Respond quickly to market shifts and customer feedback. Leverage automated alerts to make prompt business decisions."
-                containerId="w-node-c7112956-a07e-57a3-a80f-504566538b83-096a000e"
-                layoutId="w-node-c7112956-a07e-57a3-a80f-504566538b84-096a000e"
-                headingClassName="heading-11"
+                containerId="w-node-_83c401e8-0d61-cacd-b893-51c94ad88d4b-d34f12fc"
+                layoutId="w-node-_83c401e8-0d61-cacd-b893-51c94ad88d4c-d34f12fc"
+                headingClassName="heading-12"
+                strongClassName="pos1"
               />
+
+
               <BenefitItemCard
+                layout="row"
                 icon={{
                   src: 'https://cdn.prod.website-files.com/665075d333d845b30969fece/665075d333d845b3096a0086_Data%20Icon%20Two.webp',
                   width: 51,
-                  alt: 'web scraping and web crawling',
+                  height: 51,
+                  alt: '',
                 }}
                 heading="Trend Insights"
                 description="Gain insights into market trends and customer sentiments. Employ automated data collection to understand market dynamics and customer preferences."
-                containerId="w-node-c7112956-a07e-57a3-a80f-504566538b8d-096a000e"
-                layoutId="w-node-c7112956-a07e-57a3-a80f-504566538b8e-096a000e"
+                containerId="w-node-_83c401e8-0d61-cacd-b893-51c94ad88d4b-d34f12fc"
+                layoutId="w-node-_83c401e8-0d61-cacd-b893-51c94ad88d4c-d34f12fc"
                 headingClassName="heading-12"
+                strongClassName="pos1"
               />
+
+
+
               <BenefitItemCard
+                layout="row"
                 icon={{
                   src: 'https://cdn.prod.website-files.com/665075d333d845b30969fece/665075d333d845b3096a0086_Data%20Icon%20Two.webp',
                   width: 51,
-                  alt: 'web scraping and web crawling',
+                  height: 51,
+                  alt: '',
                 }}
                 heading="Stock Optimization"
                 description="Streamline your inventory management. Use real-time data to optimize stock levels, reduce overstocking, and prevent stockouts."
-                containerId="w-node-a366d8ea-227d-4ddd-cd7a-fe85fb41c95f-096a000e"
-                layoutId="w-node-a366d8ea-227d-4ddd-cd7a-fe85fb41c960-096a000e"
+                containerId="w-node-_83c401e8-0d61-cacd-b893-51c94ad88d4b-d34f12fc"
+                layoutId="w-node-_83c401e8-0d61-cacd-b893-51c94ad88d4c-d34f12fc"
                 headingClassName="heading-12"
-                strongClassName=""
+                strongClassName="pos1"
               />
             </div>
           </div>
@@ -467,7 +500,7 @@ export const AutomatedMonitoring = () => {
             <div
               data-w-id="5f61705b-71f5-31c1-fa69-85a28159ea35"
               className={`services-two-button-one services-two-idea-button-one ${activeTab === 'ecommerce' ? 'active' : ''}`}
-              style={{ backgroundColor: activeTab === 'ecommerce' ? 'rgb(255, 109, 47)' : 'rgb(25, 58, 63)' }}
+              style={{ borderRadius: "12px", backgroundColor: activeTab === 'ecommerce' ? 'rgb(255, 109, 47)' : 'rgb(25, 58, 63)' }}
               onClick={() => setActiveTab('ecommerce')}
             >
               <div className="services-two-button-text">E-commerce businesses</div>
@@ -475,7 +508,7 @@ export const AutomatedMonitoring = () => {
             <div
               data-w-id="5f61705b-71f5-31c1-fa69-85a28159ea38"
               className={`services-two-button-one services-two-ideas-button-two ${activeTab === 'brands' ? 'active' : ''}`}
-              style={{ backgroundColor: activeTab === 'brands' ? 'rgb(255, 109, 47)' : 'rgb(25, 58, 63)' }}
+              style={{ borderRadius: "12px", backgroundColor: activeTab === 'brands' ? 'rgb(255, 109, 47)' : 'rgb(25, 58, 63)' }}
               onClick={() => setActiveTab('brands')}
             >
               <div className="services-two-button-text">Consumer brands</div>
@@ -483,7 +516,7 @@ export const AutomatedMonitoring = () => {
             <div
               data-w-id="5f61705b-71f5-31c1-fa69-85a28159ea3b"
               className={`services-two-button-one services-two-ideas-button-three ${activeTab === 'analysts' ? 'active' : ''}`}
-              style={{ backgroundColor: activeTab === 'analysts' ? 'rgb(255, 109, 47)' : 'rgb(25, 58, 63)' }}
+              style={{ borderRadius: "12px", backgroundColor: activeTab === 'analysts' ? 'rgb(255, 109, 47)' : 'rgb(25, 58, 63)' }}
               onClick={() => setActiveTab('analysts')}
             >
               <div className="services-two-button-text">Market analysts</div>
@@ -553,15 +586,25 @@ export const AutomatedMonitoring = () => {
             </div>
           </div>
           {/* Consumer brands content */}
-          <div className={`services-two-idea-inner-section services-two-inner-one ${activeTab === 'brands' ? 'active' : ''}`} style={{ display: activeTab === 'brands' ? 'flex' : 'none' }}>
-            <img
-              src="https://cdn.prod.website-files.com/665075d333d845b30969fece/667aea9d04a97130cc31d69b_Chart%2037-min.png"
-              loading="lazy"
-              width="467"
-              sizes="(max-width: 479px) 100vw, 467px"
-              alt="A graph that shows the total views of the internet"
-              srcSet="https://cdn.prod.website-files.com/665075d333d845b30969fece/667aea9d04a97130cc31d69b_Chart%2037-min-p-500.png 500w, https://cdn.prod.website-files.com/665075d333d845b30969fece/667aea9d04a97130cc31d69b_Chart%2037-min-p-800.png 800w, https://cdn.prod.website-files.com/665075d333d845b30969fece/667aea9d04a97130cc31d69b_Chart%2037-min-p-1080.png 1080w, https://cdn.prod.website-files.com/665075d333d845b30969fece/667aea9d04a97130cc31d69b_Chart%2037-min-p-1600.png 1600w, https://cdn.prod.website-files.com/665075d333d845b30969fece/667aea9d04a97130cc31d69b_Chart%2037-min.png 2136w"
-            />
+          <div className={`services-two-idea-inner-section services-two-inner-two ${activeTab === 'brands' ? 'active' : ''}`} style={{ display: activeTab === 'brands' ? 'flex' : 'none' }}>
+            <div className="services-two-idea-left">
+              <img
+                src="https://cdn.prod.website-files.com/665075d333d845b30969fece/665075d333d845b3096a0041_Green%20Polygon.webp"
+                alt=""
+                width="21.5"
+                height="22"
+                className="auto-fit services-two-green-polygon"
+              />
+              <img
+                src="https://cdn.prod.website-files.com/665075d333d845b30969fece/667aea9d04a97130cc31d69b_Chart%2037-min.png"
+                loading="lazy"
+                width="1394"
+                sizes="(max-width: 1439px) 100vw, 1394px"
+                alt="A cell phone showing a bar graph on the screen"
+                srcSet="https://cdn.prod.website-files.com/665075d333d845b30969fece/667aea9d04a97130cc31d69b_Chart%2037-min-p-500.png 500w, https://cdn.prod.website-files.com/665075d333d845b30969fece/667aea9d04a97130cc31d69b_Chart%2037-min-p-800.png 800w, https://cdn.prod.website-files.com/665075d333d845b30969fece/667aea9d04a97130cc31d69b_Chart%2037-min-p-1080.png 1080w, https://cdn.prod.website-files.com/665075d333d845b30969fece/667aea9d04a97130cc31d69b_Chart%2037-min-p-1600.png 1600w, https://cdn.prod.website-files.com/665075d333d845b30969fece/667aea9d04a97130cc31d69b_Chart%2037-min.png 2000w"
+              />
+
+            </div>
             <div className="services-two-idea-right">
               <h2 className="services-two-idea-right-head">
                 <strong>Consumer Brand Management</strong>
@@ -583,7 +626,7 @@ export const AutomatedMonitoring = () => {
                     <strong>Proactive Reputation Management</strong>
                   </div>
                   <p className="services-two-ideas-content-paragraph">
-                    Monitor online mentions and reviews to stay ahead of potential issues. Address concerns promptly to uphold and enhance your brand's reputation.
+                    Analyze customer sentiment to understand how your brand is perceived. Use these insights to make informed decisions that strengthen your brand image.
                   </p>
                 </div>
               </div>
@@ -617,7 +660,7 @@ export const AutomatedMonitoring = () => {
                     <strong>Brand Sentiment Analysis</strong>
                   </div>
                   <p className="services-two-ideas-content-paragraph">
-                    Analyze customer sentiment to understand how your brand is perceived. Use these insights to make informed decisions that strengthen your brand image.
+                    Quickly and effectively respond to customer feedback to improve satisfaction. Show customers that their opinions matter and foster loyalty.
                   </p>
                 </div>
               </div>
@@ -704,10 +747,10 @@ export const AutomatedMonitoring = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section><br/>
 
       {/* Testimonials Section */}
-      <TestimonialsSection label="Testimonials" heading="Trusted by Industry Leaders" />
+      <TestimonialsSection label="Testimonials" heading="Words of Appreciation From Our Valued Clients" />
 
       {/* Business Section */}
       <BusinessSection onContactClick={handleContactClick} />

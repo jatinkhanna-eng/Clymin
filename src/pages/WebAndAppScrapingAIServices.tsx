@@ -235,15 +235,15 @@ export const WebAndAppScrapingAIServices = () => {
                     <h2 className="about-three-business-head-text"><strong>Data Intelligence to Elevate Your Social Media Strategy</strong></h2>
                     <p className="about-three-business-right-paragraph">Enhance your marketing strategy with valuable insights from social media platforms.</p>
                     <div className="about-three-business-line"></div>
-                    <div className="w-layout-grid about-three-business-grid">
+                    <div className="about-three-business-grid">
                       <div className="about-three-business-grid-inner">
-                        <img width="28" height="28" alt="" src="https://cdn.prod.website-files.com/665075d333d845b30969fece/665075d333d845b3096a0028_About%20Three%20Business%20Arrow.webp" className="auto-fit about-three-business-arrow" />
+                        <img alt="" src="https://cdn.prod.website-files.com/665075d333d845b30969fece/665075d333d845b3096a0028_About%20Three%20Business%20Arrow.webp" className="auto-fit about-three-business-arrow" />
                         <p className="about-three-business-grid-paragraph">
                           <span className="about-three-business-grid-heading"><strong>Comprehensive Data Collection</strong> :</span> Gather data from platforms like Twitter to understand consumer behaviour, market trends, and brand sentiment.
                         </p>
                       </div>
                       <div className="about-three-business-grid-inner">
-                        <img width="28" height="28" alt="" src="https://cdn.prod.website-files.com/665075d333d845b30969fece/665075d333d845b3096a0028_About%20Three%20Business%20Arrow.webp" className="auto-fit about-three-business-arrow" />
+                        <img alt="" src="https://cdn.prod.website-files.com/665075d333d845b30969fece/665075d333d845b3096a0028_About%20Three%20Business%20Arrow.webp" className="auto-fit about-three-business-arrow" />
                         <p className="about-three-business-grid-paragraph">
                           <span className="about-three-business-grid-heading"><strong>AI-Powered Precision</strong> : </span>Use AI-powered data extraction for accurate and up-to-date information, enabling strategic decisions and optimizing your social media presence.
                         </p>
@@ -378,7 +378,7 @@ export const WebAndAppScrapingAIServices = () => {
           <div className="home-one-hero-line home-one-management-line"></div>
           <div className="home-one-hero-text-box home-one-management-text-one home-one-text-style">BENEFITS</div>
         </div>
-        <div className="w-layout-blockcontainer home-one-management-head-text w-container">
+        <div className="w-layout-blockcontainer home-one-management-head-text w-container" style={{display:"flex"}}>
           <h2 className="home-one-management-head-left-text text-center">
             <strong className="bold-text-16">Transform Your Data Strategy</strong>
           </h2>

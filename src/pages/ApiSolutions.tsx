@@ -15,7 +15,7 @@ export const ApiSolutions = () => {
   return (
     <>
       <Header onContactClick={handleContactClick} />
-      
+
       {/* Hero Section */}
       <section className="services-two-hero-section">
         <div className="services-container services-two-container-pading">
@@ -33,7 +33,12 @@ export const ApiSolutions = () => {
             </div>
           </div>
           <h1 className="services-two-hero-heading">Innovative API Solutions for Seamless Data Integration</h1>
-          <div className="services-two-hero-second-section">
+          <div style={{
+            alignItems: "start",
+            maxWidth: "600px",
+            display: "flex",
+            flexDirection: "column"
+          }}>
             <div className="services-two-hero-text-left">
               <p className="services-two-hero-paragraph">
                 Meet your unique business needs with custom API development and management by our experts
@@ -210,7 +215,7 @@ export const ApiSolutions = () => {
         </div>
         <div id="w-node-_9cad8044-3ab2-965c-9789-4cdd93a3c86a-0969ff46" className="home-one-deve-two-slider">
           <div className="home-one-develop-two-image-wrapper">
-            <div className="home-one-development-one-image">
+            <div>
               <img
                 src="https://cdn.prod.website-files.com/665075d333d845b30969fece/6675265179b5b1687ac6c637_API%20MANAGEMENT%20(1)-min.png"
                 loading="lazy"
@@ -458,10 +463,10 @@ export const ApiSolutions = () => {
             className="auto-fit-image home-three-solution-image"
           />
         </div>
-      </section>
+      </section><br/>
 
       {/* Testimonials Section */}
-      <TestimonialsSection label="Testimonials" heading="Trusted by Industry Leaders" />
+      <TestimonialsSection label="Testimonials" heading="Words of Appreciation From Our Valued Clients" />
 
       {/* Business Section */}
       <BusinessSection onContactClick={handleContactClick} />

@@ -371,6 +371,15 @@ html.w-mod-touch * {
   overflow: hidden;
 }
 
+.heading-12 strong {
+  white-space: nowrap;
+}
+
+.career-data-section .heading-12 strong {
+  white-space: nowrap;
+}
+
+
 @media screen and (min-width: 1280px) {
   .home-one-development-one-image {
     justify-content: center;
@@ -1720,7 +1729,7 @@ html.w-mod-touch * {
   padding-right: 30px;
   overflow: hidden;
   max-height: 0;
-  transition: max-height 0.5s ease-in-out, padding-top 0.5s ease-in-out, padding-bottom 0.5s ease-in-out;
+  transition: max-height 0.5s ease, padding-top 0.5s ease, padding-bottom 0.5s ease;
 }
 
 .faq-answer.open {
