@@ -1,5 +1,4 @@
 import './WhatSetsUsApartSection.css'
-import { SectionHeader } from '@/components/SectionHeader'
 import { FeatureCard } from '@/components/FeatureCard'
 
 const features = [
