@@ -190,6 +190,20 @@ export const Header = ({ onContactClick }: HeaderProps) => {
                               >
                                 Food delivery{' '}
                               </Link>
+
+                              <Link
+                                to="/blogs/template"
+                                tabIndex={0}
+                                className="dropdown-link-16 w-dropdown-link"
+                                onClick={() => setIsMobileMenuOpen(false)}
+                              >
+                                Template
+                              </Link>
+                              {/* <Link
+                                to="/services/data-cleansing-transformation"
+                                className="mobile-menu-link"
+                                onClick={() => setIsMobileMenuOpen(false)}
+                              ></Link> */}
                               <Link
                                 to="/blogs/powerful-web-scraping-techniques-to-extract-data-like-a-pro-in-2024"
                                 className="dropdown-link-16 w-dropdown-link"
@@ -333,6 +347,13 @@ export const Header = ({ onContactClick }: HeaderProps) => {
                               onClick={() => setIsMobileMenuOpen(false)}
                             >
                               E-commerce
+                            </Link>
+                            <Link
+                              to="/blogs/template"
+                              className="mobile-menu-link"
+                              onClick={() => setIsMobileMenuOpen(false)}
+                            >
+                              Template
                             </Link>
                             <Link
                               to="/services/data-cleansing-transformation"

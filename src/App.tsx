@@ -14,6 +14,7 @@ import { ApiSolutions } from './pages/ApiSolutions'
 import { AutomatedMonitoring } from './pages/AutomatedMonitoring'
 import { WebAndAppScrapingAIServices } from './pages/WebAndAppScrapingAIServices'
 import ScrollToTop from './hooks/ScrollToTop'
+import TemplateDesign from './pages/TemplateDesign'
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         <Route path="/terms-service" element={<TermsOfService />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         <Route path="/food-delivery-with-clymins" element={<FoodDeliveryCaseStudy />} />
+        <Route path="/blogs/template" element={<TemplateDesign />} />
         <Route path="/blogs/powerful-web-scraping-techniques-to-extract-data-like-a-pro-in-2024" element={<EcommerceBlog />} />
         <Route path="/services/web-app-scraping-ai-services" element={<WebAndAppScrapingAIServices />} />
         <Route path="/services/data-cleansing-transformation" element={<DataCleansingTransformation />} />
