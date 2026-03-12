@@ -613,3 +613,101 @@ export default function TemplateDesign() {
     </>
   );
 }
+
+
+
+
+
+
+
+
+
+
+
+// import { useEffect, useState } from "react";
+// import { fetchBlogs, renderTemplate, styles } from "../helpers/helpers";
+// import { Header } from "@/components/Header";
+// import { Footer } from "@/components/Footer";
+
+// interface Blog {
+//   id: number;
+//   Title?: string;
+//   Description?: string;
+//   Template?: any[];
+//   Image?: any[];
+//   BlogPostSEO?: any[];
+//   createdAt?: any
+// }
+
+// const TemplateDesign = () => {
+//   const [blogPosts, setBlogPosts] = useState<Blog[]>([]);
+//   const [loading, setLoading] = useState(true);
+
+//   useEffect(() => {
+//     fetchBlogs()
+//       .then(setBlogPosts)
+//       .finally(() => setLoading(false));
+//   }, []);
+
+//   if (loading) return <div style={styles.meta}>Loading blog…</div>;
+
+//   const blog = blogPosts[0];
+
+//   return (
+//     <>
+//       <Header onContactClick={() => { }} />
+
+//       <main style={styles.page}>
+//         <div style={styles.container}>
+//           <h1 style={styles.title}>{blog.Title}</h1>
+
+//           <div style={styles.meta}>
+//             Published on{" "}
+//             {new Date(blog.createdAt as any).toLocaleDateString()}
+//           </div>
+//           {blog.Image?.[0] && (
+//             <div style={styles.mediaWrapper}>
+//               {blog.Image[0].mime?.startsWith("video") ? (
+//                 <video
+//                   controls
+//                   src={`http://localhost:1337${blog.Image[0].url}`}
+//                   style={styles.media}
+//                 />
+//               ) : (
+//                 <img
+//                   src={`http://localhost:1337${blog.Image[0].url}`}
+//                   alt={blog.Title}
+//                   style={styles.media}
+//                 />
+//               )}
+//             </div>
+//           )}
+
+//           <p style={styles.description}>{blog.Description}</p>
+
+//           <article style={styles.content}>
+//             {renderTemplate(blog.Template || [])}
+//           </article>
+
+//           {blog.BlogPostSEO?.[0] && (
+//             <section style={styles.seo}>
+//               <p style={styles.seoLabel}>SEO INSIGHT</p>
+//               <p style={styles.seoTitle}>
+//                 {blog.BlogPostSEO[0].MetaTitle}
+//               </p>
+//               <p style={styles.seoDesc}>
+//                 {blog.BlogPostSEO[0].MetaDescription}
+//               </p>
+
+//               {renderTemplate(blog.BlogPostSEO[0].MetaContent)}
+//             </section>
+//           )}
+//         </div>
+//       </main>
+
+//       <Footer />
+//     </>
+//   );
+// };
+
+// export default TemplateDesign;
